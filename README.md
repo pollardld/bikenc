@@ -1,6 +1,3 @@
-# bikenc
-walkbikenc theme for bikenc.com
-
 ##Biking North Carolina
 ####North Carolina Bike ways, Planning, Routing, Directions  
 #####Check it out http://ncbikeways.com/
