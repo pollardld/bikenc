@@ -1,0 +1,41 @@
+[{
+	"elevation" : 13,
+	"name" : "Start",
+	"lat" : 36.54881085381181,
+	"lng" : -76.57590866088867
+},{
+	"elevation" : 3,
+	"name" : "Edenton",
+	"lat" : 36.057938,
+	"lng" : -76.60772129
+},{
+	"elevation" : 3,
+	"name" : "Bath",
+	"lat" : 35.4771094,
+	"lng" : -76.81160448999999
+},{
+	"elevation" : 22,
+	"name" : "Cypress Creek",
+	"lat" : 34.7515554,
+	"lng" : -77.70497569
+},{
+	"elevation" : 3,
+	"name" : "New Bern",
+	"lat" : 35.108493,
+	"lng" : -77.04411429
+},{
+	"elevation" : 11,
+	"name" : "Wilmington",
+	"lat" : 34.2257255,
+	"lng" : -77.9447102
+},{
+	"elevation" : 5,
+	"name" : "Southport",
+	"lat" : 33.921563,
+	"lng" : -78.02026769
+},{
+	"elevation" : 16,
+	"name" : "Finish",
+	"lat" : 33.890723726254,
+	"lng" : -78.58662128448486
+}]

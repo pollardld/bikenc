@@ -1,0 +1,66 @@
+[{
+   "elevation" : 487,
+   "name" : "Start",
+   "lat" : 35.0879,
+   "lng" : -84.0343
+},{
+   "elevation" : 486,
+   "name" : "Murphy",
+   "lat" : 35.08758359,
+   "lng" : -84.03463149
+},{
+   "elevation" : 1006,
+   "name" : "Balsam",
+   "lat" : 35.4267683,
+   "lng" : -83.08514049
+},{
+   "elevation" : 656,
+   "name" : "Asheville",
+   "lat" : 35.58668920485832,
+   "lng" : -82.47968673706055
+},{
+   "elevation" : 357,
+   "name" : "Lenior",
+   "lat" : 35.9140196,
+   "lng" : -81.5389849
+},{
+   "elevation" : 486,
+   "name" : "High Point",
+   "lat" : 35.96147348227562,
+   "lng" : -79.94776725769043
+},{
+   "elevation" : 139,
+   "name" : "Chapel Hill",
+   "lat" : 35.91060332011624,
+   "lng" : -79.07280921936035
+},{
+   "elevation" : 112,
+   "name" : "Raleigh",
+   "lat" : 35.863456678986985,
+   "lng" : -78.78416061401367
+},{
+   "elevation" : 40,
+   "name" : "Elm City",
+   "lat" : 35.8065455,
+   "lng" : -77.863315
+},{
+   "elevation" : 2,
+   "name" : "Washington",
+   "lat" : 35.54655169,
+   "lng" : -77.05217419
+},{
+   "elevation" : 0,
+   "name" : "Swan Quarter",
+   "lat" : 35.406331317793445,
+   "lng" : -76.32944583892822
+},{
+   "elevation" : 1,
+   "name" : "Manteo",
+   "lat" : 35.9082256,
+   "lng" : -75.67573019
+},{
+   "elevation" : 1,
+   "name" : "Finish",
+   "lat" : 35.9091,
+   "lng" : -75.5973
+}]

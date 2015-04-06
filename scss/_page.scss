@@ -1,0 +1,664 @@
+/*	Home  ** =================================================== */
+.home {
+
+	.route-description {
+		margin-bottom: $margin;
+	}
+
+	.map-wrapper {
+		height: 320px;
+		position: relative;
+	}
+
+	.leaflet-container .leaflet-left {
+        top: 3rem;
+    }
+}
+
+.route-wrapper-title {
+	background: $textColor;
+	margin-bottom: $margin;
+	padding: 2rem 0;
+	position: relative;
+	text-align: center;
+	z-index: 1;
+
+	&:after {
+		bottom: -28px;
+		border-right: 28px solid transparent;
+		border-left: 28px solid transparent;
+		border-top: 28px solid $textColor;
+		content: '';
+		height: 0;
+		margin-left: -28px;
+		position: absolute;
+		text-align: center;
+		width: 0;
+	}
+
+	h5 {
+		color: #fff;
+	}
+}
+
+.routes {
+	line-height: 1.75em;
+	margin: 0;
+	padding: 2rem 10%;
+	position: relative;
+	width: 100%;
+
+	&:nth-of-type(2n+2) {
+		background: $offWhite;
+	}
+}
+
+.route-svg {
+	display: block;
+	margin: 0 auto $margin;
+	position: relative;
+	width: 100%;
+
+	object {
+		display: block;
+		margin: 0 auto;
+		height: 100%;
+		width: auto;
+	}
+
+	a {
+		bottom: 0;
+		height: 100%;
+		left: 0;
+		opacity: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 100%;
+
+		&:hover {
+			opacity: 0;
+		}
+	}
+}
+
+.route-info {
+	display: block;
+	width: 100%;
+
+	a {
+		display: block;
+		text-align: center;
+	}
+}
+
+.route-description {
+	font-size: .875em;
+}
+
+.route-details {
+	line-height: 40px;
+}
+
+/*	Single  ** =================================================== */
+.single {
+
+	.single-bg {
+		background: $primaryColor;
+		margin: 0;
+		padding: 1.75rem 0;
+		position: relative;
+
+		h1 {
+			color: #fff;
+			font-family: $sans;
+			font-size: .875em;
+			font-weight: $bold;
+			letter-spacing: 0.05em;
+			margin: 0 auto;
+			text-align: center;
+			text-transform: uppercase;
+			max-width: 70%;
+		}
+	}
+
+	.route-info {
+		display: block;
+		margin: 0 0 $margin;
+		overflow: hidden;
+		width: 100%;
+
+		h4 {
+			text-transform: none;
+			font-size: .75em;
+			line-height: 1rem;
+
+			span {
+				display: block;
+			}
+
+			&.spread {
+
+				> [class*="span"]:nth-child(1) {
+					margin-right: 0;
+				}
+
+				> [class*="span"]:nth-child(2) {
+					margin-left: 0;
+				}
+			}
+		}
+
+		.span3 {
+
+			h4 {
+				border-bottom: 1px solid rgba($lightGrey,0.35);
+				padding-bottom: .75rem;
+			}
+		}
+
+		.cities {
+			display: inline-block;
+			font-size: 1em;
+		}
+
+		.elevation-chart {
+			float: left;
+			padding-top: 10px;
+			position: relative;
+
+			&:before,
+			&:after {
+				background-repeat: no-repeat;
+				background-size: contain;
+				content: '';
+				height: 16px;
+				position: absolute;
+				top: -6px;
+				width: 12px;
+			}
+
+			&:before {
+				background-image: url('../img/marker.svg');
+				left: 32px;
+			}
+
+			&:after {
+				background-image: url('../img/marker-finish.svg');
+				right: 6px;
+			}
+		}
+
+		.popup-img-wrapper {
+			float: left;
+		}
+	}
+
+	#single-infobox {
+		overflow: hidden;
+		margin-bottom: $margin;
+		padding-top: 3rem;
+	}
+
+	.route-two-wrapper {
+		display: inline-block;
+		overflow: hidden;
+		position: relative;
+		height: 100vh;
+		margin: 0 0 0 -2px;
+		vertical-align: top;
+		width: 50%;
+	}
+
+	.chart {
+		width: 100%;
+	}
+
+	.map-wrapper {
+		height: 45vh;
+		position: relative;
+	}
+
+	.route-description {
+		background: rgba($lightGrey, 0.2);
+		margin: 1.5rem auto;
+		overflow: hidden;
+		padding: 1.5rem .75rem;
+		position: relative;
+	}
+
+}
+
+.route-description {
+	overflow: hidden;
+	position: relative;
+}
+
+.route-content {
+	font-size: 1em;
+	line-height: 1.75em;
+}
+
+/*	Page  ** =================================================== */
+.page-template-default {
+
+	.title-wrap {
+		background: $textColor;
+		padding: 2rem 0;
+
+		h1 {
+			color: #fff;
+			font-family: $opensans;
+			font-weight: $bold;
+			letter-spacing: 0.025em;
+			line-height: 1;
+			margin-bottom: 0;
+			text-transform: uppercase;
+		}
+	}
+
+	.page-content {
+		display: block;
+		margin: 3rem auto;
+	}
+
+	.svg-bg {
+		background: rgba($lightGrey, 0.6);
+		height: 350px;
+		overflow: hidden;
+		position: relative;
+		width: 100%;
+
+		&:after {
+			background-image: $patternOverlay;
+			background-size: 10px;
+			bottom: 0;
+			content: '';
+			height: 100%;
+			left: 0;
+			opacity: 0.4;
+			position: absolute;
+			right: 0;
+			top: 0;
+			width: 100%;
+		}
+
+		img {
+			left: -25%;
+			position: absolute;
+			right: -5%;
+			top: 0;
+			width: 130%;
+			max-width: 130%;
+		}
+	}
+}
+
+/*	Contact  ** =================================================== */
+div.wpcf7 {
+	background: rgba($accentColor, 0.1);
+	margin-bottom: $margin;
+	padding: $padding;
+
+	.wpcf7-form {
+
+		sup {
+			color: $primaryColor;
+		}
+
+		input, textarea {
+			border: 1px solid #ccc;
+			line-height: 1.6125em;
+			padding: .25rem .5rem;
+			width: 100%;
+		}
+
+		textarea {
+			height: 8rem;
+		}
+
+		input[type="submit"] {
+			background: $textColor;
+			border: none;
+			color: #fff;
+			display: inline-block;
+			font-weight: $bold;
+			letter-spacing: .125em;
+			padding: .5rem 1.5rem;
+			text-transform: uppercase;
+			min-width: 30%;
+			max-width: 50%;
+			@include vendor-prefix(transition, 0.2s background ease);
+
+			&:hover, &:focus {
+				background: rgba($textColor, 0.7);
+			}
+
+			&:active {
+				background: $primaryColor;
+			}
+		}
+	}
+}
+
+/*	Map Page  ** =================================================== */
+.page-template-map-php,
+.page-template-page-map,
+.page-template-page-map-php {
+
+	header {
+		top: 0;
+		z-index: 999;
+		@include vendor-prefix (transition, 0.2s top ease-in-out);
+
+		.intro {
+			height: auto;
+			width: 80px;
+			@include vendor-prefix (transition, 0.4s margin-top ease-in-out);
+
+			&:hover {
+				margin-top: 0;
+			}
+		}
+	}
+
+	#infobox {
+		bottom: 9%;
+		bottom: 9vh;
+		left: 10%;
+		right: 10%;
+		width: 80%;
+
+		section {
+
+			&:before {
+				content: '';
+			}
+
+			.clear-infobox {
+				background: rgba(255,255,255,0.4);
+				border-radius: 50%;
+				color: #7f7f7f;
+				cursor: pointer;
+				font-weight: 700;
+				height: 30px;
+				font-family: $opensans;
+				font-size: .875em;
+				line-height: 30px;
+				opacity: 0.8;
+				position: absolute;
+				text-align: center;
+				top: -30px;
+				right: -30px;
+				width: 30px;
+				@include vendor-prefix(transition, 0.2s opacity ease-in-out);
+
+				&:hover {
+					background: rgba(255,255,255,0.6);
+					opacity: 1;
+				}
+			}
+		}
+
+		div {
+			width: 90%;
+		}
+
+		h4 {
+			width: 90%;
+		}
+
+		strong {
+			font-family: $opensans;
+			font-size: .8125em;
+			font-weight: 600;
+			text-transform: uppercase;
+		}
+
+		.elevation {
+			margin-bottom: 0;
+		}
+
+		.popup-marker, .route-number {
+			left: 47%;
+		}
+	}
+
+	#route-init {
+		background: transparent;
+		border: none;
+		border-radius: 0;
+		display: inline-block;
+		font-family: $sans;
+		font-size: .875em;
+		font-weight: $bold;
+		letter-spacing: .025em;
+		margin: $margin 1% 0 -2px;
+		padding-left: 2px;
+		text-align: left;
+		text-transform: uppercase;
+		width: 49%;
+
+		span {
+			font-family: Arial, sans-serif;
+			font-size: 1.375em;
+			padding-left: 5px;
+		}
+	}
+
+	.partialbtn {
+		@extend #route-init;
+		font-size: .8125em;
+		margin: .125rem 0;
+		padding: .25rem 0;
+	}
+
+	.elevation-chart:not(:empty) {
+		background: $bg;
+		box-shadow: 0 -5px $bg;
+		border-top: 1px solid #fff;
+		pointer-events: auto;
+		position: relative;
+
+		&:before,
+		&:after {
+			background-repeat: no-repeat;
+			background-size: contain;
+			content: '';
+			height: 16px;
+			position: absolute;
+			top: 2px;
+			width: 12px;
+		}
+
+		&:before {
+			background-image: url('../img/marker.svg');
+			left: 36px;
+		}
+
+		&:after {
+			background-image: url('../img/marker-finish.svg');
+			right: 8px;
+		}
+	}
+
+	.chart-wrap {
+		bottom: 10%;
+		left: 0;
+		overflow: visible;
+		pointer-events: none;
+		position: absolute;
+		width: 100%;
+		z-index: 8;
+
+		svg {
+			color: #fff;
+
+			.c3-line-elevation {
+				stroke: rgba($textColor, 0.95) !important;
+			}
+
+			.c3-area-elevation {
+				fill: $midGrey !important;
+			}
+
+			.c3-legend-item-tile {
+				fill: $textColor !important;
+			}
+
+			.c3-circle {
+				fill: $textColor !important;
+			}
+		}
+
+		.tick {
+
+			text {
+				fill: $textColor;
+			}
+
+			line {
+				stroke: $midGrey;
+			}
+		}
+	}
+
+	.footer-bg {
+		display: none;
+	}
+}
+
+/*	Route Pages  ** =================================================== */
+.nc2-mountains-to-sea, .post-4 {
+
+	h2, h4 span, .more-detail {
+		color: $nc2;
+	}
+
+	.single-bg {
+		background: $nc2;
+	}
+}
+
+.nc3-ports-of-call, .post-14 {
+
+	h2, h4 span, .more-detail {
+		color: $nc3;
+	}
+
+	.single-bg {
+		background: $nc3;
+	}
+}
+
+.nc4-north-line-trace, .post-17 {
+
+	h2, h4 span, .more-detail {
+		color: $nc4;
+	}
+
+	.single-bg {
+		background: $nc4;
+	}
+}
+
+.nc5-cape-fear-run, .post-20 {
+
+	h2, h4 span, .more-detail {
+		color: $nc5;
+	}
+
+	.single-bg {
+		background: $nc5;
+	}
+}
+
+.nc6-piedmont-spur, .post-23 {
+
+	h2, h4 span, .more-detail {
+		color: $nc6;
+	}
+
+	.single-bg {
+		background: $nc6;
+	}
+}
+
+.nc7-ocracoke-option, .post-26 {
+
+	h2, h4 span, .more-detail {
+		color: $nc7;
+	}
+
+	.single-bg {
+		background: $nc7;
+	}
+}
+
+.nc8-southern-highlands, .post-29 {
+
+	h2, h4 span, .more-detail {
+		color: $nc8;
+	}
+
+	.single-bg {
+		background: $nc8;
+	}
+}
+
+.us1-carolina-connection, .post-32 {
+
+	h2, h4 span, .more-detail {
+		color: $us1;
+	}
+
+	.single-bg {
+		background: $us1;
+	}
+}
+
+.nc9-sandhills-sector, .post-35 {
+
+	h2, h4 span, .more-detail {
+		color: $sandhills;
+	}
+
+	.single-bg {
+		background: $sandhills;
+	}
+}
+
+/*	404  ** =================================================== */
+.error404 {
+
+	.title-wrap {
+		padding: 10rem 0 1rem;
+
+		h1 {
+			text-align: center;
+		}
+	}
+
+	.page-content {
+		text-align: center;
+		margin-bottom: 3rem;
+		min-height: 50vh;
+	}
+}
+
+/*	Search  ** =================================================== */
+.search {
+
+	.container {
+		min-height: 90vh;
+		padding-top: 10rem;
+	}
+
+	h1 {
+		margin-bottom: $margin;
+	}
+
+	article {
+		margin-bottom: $margin;
+	}
+}

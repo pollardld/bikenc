@@ -1,0 +1,52 @@
+var us_oneRoute = L.Routing.control({
+    waypoints: [
+    	L.latLng(34.7214,-79.5735),
+    	L.latLng(34.7301,-79.5576),
+    	L.latLng(34.7478,-79.5238),
+    	L.latLng(34.7737,-79.4873),
+		L.latLng(34.7859,-79.4683),
+		L.latLng(34.8143,-79.4906),
+		L.latLng(34.8672,-79.4881),
+		L.latLng(34.88068550724316,-79.45720195770262),
+		L.latLng(34.9439,-79.4029),
+		L.latLng(35.0531,-79.386),
+		L.latLng(35.1478,-79.3815),
+		L.latLng(35.2068,-79.3558),
+		L.latLng(35.2827,-79.3581),
+		L.latLng(35.3481,-79.3816),
+		L.latLng(35.393458112734656,-79.30704116821289),
+		L.latLng(35.4352,-79.191),
+		L.latLng(35.4969,-79.1515),
+		L.latLng(35.5524,-79.0894),
+		L.latLng(35.6441,-79.0031),
+		L.latLng(35.7128,-78.8762),
+		L.latLng(35.7768,-78.8484),
+		L.latLng(35.7862,-78.8472),
+		L.latLng(35.8256,-78.8052),
+		L.latLng(35.90076603667564,-78.73742580413818),
+		L.latLng(35.938,-78.7019),
+		L.latLng(35.9453889856921,-78.66841793060303),
+		L.latLng(35.9502,-78.6415),
+		L.latLng(35.9946,-78.6603),
+		L.latLng(36.0612,-78.6151),
+		L.latLng(36.1386,-78.5738),
+		L.latLng(36.2316,-78.5553),
+		L.latLng(36.3253,-78.5492),
+		L.latLng(36.357422272159184,-78.48235845565796),
+		L.latLng(36.3543289824228,-78.45049381256104),
+		L.latLng(36.33210206932601,-78.40195655822752),
+		L.latLng(36.3442,-78.3932),
+		L.latLng(36.3888,-78.3417),
+		L.latLng(36.4224,-78.2839),
+		L.latLng(36.4636,-78.3088),
+		L.latLng(36.5443,-78.2644)
+    ],
+    geocoder: L.Control.Geocoder.nominatim(),
+    plan: L.Routing.plan(null, {
+        waypointIcon: function(i) {
+            return new L.Icon({
+                iconUrl : '/wp-content/themes/walkbikenc/img/saturn.png'
+            })
+        }
+    })
+}).addTo(map);

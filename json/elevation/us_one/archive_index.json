@@ -1,0 +1,41 @@
+[{
+   "elevation" : 111,
+   "name" : "Start",
+   "lat" : 36.35783,
+   "lng" : -78.483585
+},{
+	"elevation" : 153,
+	"name" : "Henderson",
+	"lat" : 36.3295905,
+	"lng" : -78.3991638
+},{
+	"elevation" : 120,
+	"name" : "Durham",
+	"lat" : 35.9940329,
+	"lng" : -78.898619
+},{
+   "elevation" : 105,
+   "name" : "Raleigh",
+   "lat" : 35.7795897,
+   "lng" : -78.6381787
+},{
+	"elevation" : 108,
+	"name" : "Sanford",
+	"lat" : 35.4798757,
+	"lng" : -79.18029939
+},{
+	"elevation" : 152,
+	"name" : "Southern Pines",
+	"lat" : 35.1740471,
+	"lng" : -79.3922539
+},{
+	"elevation" : 67,
+	"name" : "Laurinburg",
+	"lat" : 34.7740494,
+	"lng" : -79.4628248
+},{
+   "elevation" : 66,
+   "name" : "Finish",
+   "lat" : 34.7214,
+   "lng" : -79.5735
+}]

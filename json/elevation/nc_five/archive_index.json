@@ -1,0 +1,46 @@
+[{
+    "elevation" : 151,
+    "name" : "Start",
+    "lat" : 35.7325,
+    "lng" : -78.8503
+},{
+    "elevation" : 152,
+    "name" : "Apex",
+    "lat" : 35.732652,
+    "lng" : -78.85028560000001
+},{
+    "elevation" : 57,
+    "name" : "Erwin",
+    "lat" : 35.3268292,
+    "lng" : -78.676128
+},{
+    "elevation" : 119,
+    "name" : "Fuquay-Varina",
+    "lat" : 35.5843235,
+    "lng" : -78.80001279
+},{
+    "elevation" : 31,
+    "name" : "Fayetteville",
+    "lat" : 35.0526641,
+    "lng" : -78.87835849
+},{
+    "elevation" : 16,
+    "name" : "Elizabethtown",
+    "lat" : 34.64542463509736,
+    "lng" : -78.59348773956299
+},{
+    "elevation" : 8,
+    "name" : "Kelly",
+    "lat" : 34.4662797,
+    "lng" : -78.3244457
+},{
+    "elevation" : 11,
+    "name" : "Wilmington",
+    "lat" : 34.2257255,
+    "lng" : -77.9447102
+},{
+    "elevation" : 1,
+    "name" : "Finish",
+    "lat" : 33.959592973654,
+    "lng" : -77.9410457611084
+}]

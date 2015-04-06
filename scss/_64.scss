@@ -1,0 +1,42 @@
+.container {
+	max-width: 48em;
+}
+
+footer {
+    max-width: 58em;
+}
+
+/*  Header  ** =================================================== */
+.nav-menu {
+
+	.main-nav {
+		right: 2%;
+
+		a {
+            padding: 0 .6875rem;
+        }
+	}
+}
+
+/*  Map Page  ** =================================================== */
+.page-template-map-php, .page-template-page-map, .page-template-page-map-php {
+
+    .chart-wrap {
+        width: 74.9%;
+    }
+}
+
+/*  Map  ** =================================================== */
+.c3-axis-x {
+
+    text {
+        font-size: .8125em;
+    }
+}
+
+/*  Directions  ** =================================================== */
+#routes:not(:empty), 
+#instructions:not(:empty) {
+    max-width: 25vw;
+    width: 25vw;
+}

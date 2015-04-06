@@ -1,0 +1,102 @@
+@mixin vendor-prefix ($name, $argument) {
+    #{$name}: $argument;
+    -webkit-#{$name}: $argument;
+    -ms-#{$name}: $argument;
+    -moz-#{$name}: $argument;
+    -o-#{$name}: $argument;
+}
+
+@mixin clear() {
+	clear: both;
+  	&:before { content: ''; display: block; clear: both; overflow: hidden; position: relative; }
+}
+
+@mixin verticalAlignCenter() {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+@function text-color( $color ) {   
+    @if ( lightness( $color ) > 50 ) {
+        @return $textColor; 
+    } @else {
+        @return #fff;
+    }
+}
+
+@mixin linkArrow() {
+    color: #ccc;
+    content: '\203A';
+    font-family: serif;
+    font-size: 1rem;
+    font-weight: normal;
+    height: 38px;
+    line-height: 34px;
+    padding-right: 10px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+    width: 40px;
+}
+
+@mixin linkEffect() {
+    background: rgba(40,40,40,0.8);
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    right: 100%;
+    top: 0;
+    z-index: -1;
+    @include vendor-prefix (transition, 0.3s right ease-in-out);
+}
+
+@mixin laydown() {
+    
+    .leftnav-link {
+        height: 0;
+        margin-bottom: 0;
+        opacity: 0;
+        @include vendor-prefix(transition, 0.3s margin-bottom ease-in-out);
+        @include vendor-prefix(transform-origin, 50% 150%);
+        @include vendor-prefix(transform, translateY(100px) translateZ(-1000px));
+    }
+
+    .animate .leftnav-link {
+        height: auto;
+        margin-bottom: .75rem;
+        opacity: 1;
+        @include vendor-prefix(transition, 0.3s opacity ease-in-out);
+        @include vendor-prefix(transform, translateY(0px) translateZ(0));
+        
+        &:nth-child(7) {
+            @include vendor-prefix(transition-delay, 0.0s);
+        }
+
+        &:nth-child(6) {
+            @include vendor-prefix(transition-delay, 0.04s);
+        }
+
+        &:nth-child(5) {
+            @include vendor-prefix(transition-delay, 0.08s);
+        }
+
+        &:nth-child(4) {
+            @include vendor-prefix(transition-delay, 0.12s);
+        }
+
+        &:nth-child(3) {
+            @include vendor-prefix(transition-delay, 0.16s);
+        }
+
+        &:nth-child(2) {
+            @include vendor-prefix(transition-delay, 0.2s);
+        }
+
+        &:first-child {
+            @include vendor-prefix(transition-delay, 0.24s);
+        }
+    }
+}

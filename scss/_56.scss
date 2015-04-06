@@ -1,0 +1,819 @@
+.container {
+    max-width: 44em;
+}
+
+footer {
+    max-width: 54em;
+}
+
+/*  Global  ** =================================================== */
+p, cite {
+
+    a {
+
+        &:hover {
+            border-bottom: 1px dashed rgba($secondaryColor, 1);
+        }
+    }
+}
+
+a {
+
+    &:hover {
+        opacity: .65;
+        outline: 0;
+
+        h2 {
+            opacity: .65;
+        }
+    }
+}
+
+/*  Header  ** =================================================== */
+header {
+    background: rgba($white, 0.6);
+    display: block;
+    position: relative;
+    z-index: 11;
+
+    .intro {
+        top: -50px;
+    }
+}
+
+#beta-label {
+    background: transparent;
+    left: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.intro {
+    margin: 0 0 0 10%;
+    width: 215px;
+    z-index: 3;
+}
+
+.navicon {
+    display: none;
+}
+
+.nav-check {
+    display: none;
+}
+
+.nav-menu {
+    background: transparent;
+    display: block;
+    left: 0;
+    overflow: visible;
+    position: relative;
+    width: 100%;
+
+    .main-nav {
+        background: transparent;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        right: 2%;
+        top: 0px;
+        width: auto;
+
+        li {
+            font-size: .875em;
+            display: inline-block;
+
+            &:last-of-type {
+
+                a {
+                    padding-right: 0;
+                }
+            }
+
+             > a {
+                display: inline;
+
+                &:after {
+                    display: none;
+                }
+            }
+        }
+
+        a {
+            font-weight: $med;
+            letter-spacing: .1em;
+            line-height: 22px;
+            padding: 0 .5rem;
+            text-align: right;
+            text-transform: uppercase;
+        }
+    }
+
+    .sub-menu {
+        display: none;
+    }
+
+    .menu-item-has-children {
+        position: relative;
+
+        &:hover, &:focus {
+
+            .sub-menu {
+                background: #fff;
+                display: block;
+                left: -5%;
+                padding-top: $padding * 1.5;
+                position: absolute;
+                top: 90%;
+
+                li {
+                    display: block;
+                    margin: 0;
+
+                    a {
+                        background: #fff;
+                        display: block;
+                        padding: $padding;
+                        white-space: nowrap;
+                        @include vendor-prefix(transition, 0.2s background ease-in-out);
+
+                        &:hover {
+                            background: rgba($secondaryColor, 0.5);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*  Single  ** =================================================== */
+.single {
+
+    .single-bg {
+
+        h1 {
+            font-size: 1.25em;
+        }
+    }
+
+    .map-wrapper {
+        margin-top: -50px;
+    }
+
+    header {
+        top: -45px;
+        @include vendor-prefix (transition, 0.2s top ease-in-out 0.8s);
+
+        &:hover {
+            top: 0;
+            @include vendor-prefix (transition-delay, 0s);
+
+            &:after {
+                background: transparent;
+                content: '';
+                left: 0;
+                height: 100px;
+                position: absolute;
+                top: 0;
+                width: 100%;
+                z-index: -1;
+            }
+
+            .intro {
+                margin-top: 0;
+                @include vendor-prefix (transition, 0.2s margin-top ease-in-out);
+            }
+        }
+
+        .intro {
+            margin-top: -55px;
+            height: 100px;
+            width: 215px;
+            @include vendor-prefix (transition, 0.2s margin-top ease-in-out 0.8s);
+
+            &:hover {
+                margin-top: 0;
+            }
+        }
+    }
+
+    .leaflet-container .leaflet-left {
+        top: 34px;
+    }
+}
+
+.page-template-default {
+
+    .page-bg {
+        margin-top: -24px;
+    }
+}
+
+/*  Home  ** =================================================== */
+.home {
+
+    .map-wrapper {
+        height: 95vh;
+        margin-top: -24px;
+    }
+
+    .leaflet-container .leaflet-left {
+        top: 34px;
+    }
+
+    .leaflet-container .leaflet-control a.leaflet-control-zoom-out {
+        border-bottom: none;
+    }
+}
+
+.routes {
+    padding: 4rem 5%;
+}
+
+.route-svg {
+    display: inline-block;
+    margin: 0 10% 0 0;
+    position: relative;
+    vertical-align: middle;
+    width: 30%;
+    max-width: 300px;
+}
+
+.route-info {
+    display: inline-block;
+    margin-left: -4px;
+    vertical-align: middle;
+    width: 60%;
+
+    a {
+        text-align: left;
+    }
+}
+
+.route-details {
+    line-height: normal;
+}
+
+/*  Contact  ** =================================================== */
+.contact {
+
+    div.wpcf7 {
+
+        .wpcf7-form {
+
+            p {
+                overflow: hidden;
+
+                &:first-of-type {
+                    margin-right: 3%;
+                    width: 48.5%;
+                }
+
+                &:nth-of-type(2) {
+                    margin-right: 0;
+                    margin-left: -4px;
+                    width: 48.5%;
+                }
+
+                &:nth-of-type(3) {
+                    display: block;
+                    margin-left: 0;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+div.wpcf7 {
+
+    .wpcf7-form {
+
+        p {
+            display: inline-block;
+
+            &:first-of-type {
+                margin-right: 3%;
+                width: 31.33%;
+            }
+
+            &:nth-of-type(2) {
+                margin-right: 3%;
+                margin-left: -4px;
+                width: 31.33%;
+            }
+
+            &:nth-of-type(3) {
+                margin-left: -4px;
+                width: 31.33%;
+            }
+
+            &:nth-of-type(4) {
+                margin-right: 3%;
+                width: 42.99%;
+            }
+
+            &:nth-of-type(5) {
+                margin-left: -4px;
+                margin-right: 3%;
+                width: 23%;
+            }
+
+            &:nth-of-type(6) {
+                margin-left: -4px;
+                margin-right: 3%;
+                width: 10%;
+            }
+
+            &:nth-of-type(7) {
+                margin-left: -4px;
+                width: 15%;
+            }
+
+            &:nth-of-type(8) {
+                width: 100%;
+            }
+
+            &:nth-of-type(9) {
+                width: 100%;
+            }
+        }
+    }
+}
+
+/*  Map  ** =================================================== */
+.map-overlay {
+    padding: 1rem 2.5%;
+    width: 35%;
+
+    &.collapse {
+        left: -35%;
+    }
+}
+
+.c3-axis-x {
+
+    text, .tick {
+        opacity: 1;
+    }
+
+    text {
+        font-size: .75em;
+    }
+}
+
+#reload,
+.mapbox-directions-reverse-input,
+#print {
+    background-size: 60%;
+    height: 28px;
+    width: 28px;
+
+    &:after {
+        background-color: #fff;
+        content: '';
+        font-size: .6125em;
+        left: -8px;
+        position: absolute;
+        top: 100%;
+    }
+}
+
+#reload {
+
+    &:hover {
+
+        &:after {
+            content: 'Refresh Map';
+            padding: 0;
+        }
+    }
+}
+
+#print {
+    background-size: 72%;
+    right: 38px;
+
+    &:hover {
+
+        &:after {
+            content: 'Print';
+            left: -2px;
+            padding: 2px 4px;
+        }
+    }
+}
+
+.mapbox-directions-reverse-input {
+    right: 71px;
+
+    &:hover {
+
+        &:after {
+            content: 'Reverse Directions';
+            padding: 2px 4px;
+        }
+    }
+}
+
+/*  Map  ** =================================================== */
+#infobox {
+    bottom: 4%;
+    bottom: 4vh;
+    width: 290px;
+
+    div {
+        font-size: .75em;
+        width: 242px;
+
+        &:nth-of-type(2),
+        &:nth-of-type(3) {
+            display: block;
+            margin-left: auto;
+            width: 242px;
+        }
+    }
+
+    h4 {
+        width: 242px;
+    }
+
+    .elevation {
+        margin-bottom: -15px;
+    }
+
+    .c3 {
+        float: none;
+        margin-left: auto;
+        width: 246px;
+    }
+
+    .popup-marker {
+        left: 122px;
+    }
+
+    .popup-img-wrapper {
+        border-top: 1px solid #999;
+        height: 98px;
+        float: none;
+        margin: .18375rem auto .5rem;
+        padding-top: .6875rem;
+        width: 242px;
+    }
+
+    .popup-img {
+        top: .6875rem;
+    }
+
+    .description {
+        font-size: .6875em;
+        line-height: 1.6125em;
+        padding-top: 0;
+        margin-bottom: .6375rem;
+    }
+}
+
+.route-number {
+    left: 122px;
+}
+
+/*  Map Page  ** =================================================== */
+.page-template-map-php,
+.page-template-page-map,
+.page-template-page-map-php {
+
+    .map-wrapper {
+        margin-top: -50px;
+    }
+
+    header {
+        // top: -45px;
+        top: -64px;
+        @include vendor-prefix (transition, 0.125s top ease-in-out 0.8s);
+
+        &:hover {
+            top: 0;
+            @include vendor-prefix (transition-delay, 0s);
+
+            &:after {
+                background: transparent;
+                content: '';
+                left: 0;
+                height: 100px;
+                position: absolute;
+                top: 0;
+                width: 100%;
+                z-index: -1;
+            }
+
+            .intro {
+                margin-top: 0;
+                @include vendor-prefix (transition, 0.125s margin-top ease-in-out);
+            }
+        }
+
+        .intro {
+            // margin-top: -55px;
+            margin-top: -50px;
+            height: 100px;
+            width: 215px;
+            @include vendor-prefix (transition, 0.125s margin-top ease-in-out 0.8s);
+
+            &:hover {
+                margin-top: 0;
+            }
+        }
+    }
+
+    #route-init {
+        display: block;
+        margin: $margin 0 0 0;
+        padding-left: 0;
+        width: auto;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .partialbtn {
+        display: block;
+        padding-left: 0;
+        margin: .125rem 0;
+        padding: .25rem 0;
+        width: auto;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    #infobox {
+        bottom: 5%;
+        bottom: 5vh;
+        left: auto;
+        right: 5%;
+        width: 390px;
+
+        div {
+            width: 350px;
+        }
+
+        h4 {
+            width: 350px;
+        }
+
+        .popup-marker, .route-number {
+            left: 176px;
+        }
+    }
+
+    .chart-wrap {
+        bottom: 0;
+        width: 69.9%;
+        z-index: 100;
+    }
+}
+
+#intro-start {
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+/* Directions  ** =================================================== */
+.navigation-icon {
+    display: none;
+}
+
+.directions-check {
+    display: none;
+
+    &:checked {
+
+        & ~ #inputs {
+            max-width: 200px;
+            min-width: 140px;
+        }
+    }
+}
+
+#inputs {
+    left: 80px;
+    top: 24px;
+    overflow: visible;
+    max-width: 200px;
+    min-width: 140px;
+    z-index: 10;
+}
+
+.geofind {
+    height: 30px;
+    left: 228px;
+    top: 24px;
+    width: 26px;
+
+    .icon-crosshair {
+        height: 16px;
+        width: 16px;
+    }
+}
+
+#directions {
+    left: auto;
+    overflow: auto;
+    padding-left: 5px;
+    top: 0;
+
+    &.add-top {
+        top: 0;
+    }
+}
+
+#routes:not(:empty),
+#instructions:not(:empty) {
+    max-width: 300px;
+    max-width: 30vw;
+    width: 30vw;
+}
+
+.mapbox-directions-inputs {
+
+    input {
+        padding: 7px 50px 7px 38px;
+    }
+}
+
+/* Leaflet Overrides  ** =================================================== */
+.leaflet-container {
+
+    .leaflet-left {
+        left: 32px;
+        top: 24px;
+    }
+
+    .leaflet-control {
+
+        a {
+            background-color: #b9babc;
+            border-bottom: 2px solid #fff;
+            color: #fff;
+            font-family: $display;
+            font-weight: normal;
+            font-size: 20px;
+            height: 32px;
+            line-height: 28px;
+            width: 30px;
+
+            &:hover, &:active, &:focus {
+                border-radius: 0;
+                height: 32px;
+                opacity: 0.7;
+
+                &:last-child {
+                    border-bottom: 2px solid #fff;
+                }
+            }
+
+            &.leaflet-control-zoom-out {
+                color: #b9babc;
+
+                &:before {
+                    color: #fff;
+                    line-height: 28px;
+                }
+            }
+
+            &.leaflet-control-fullscreen-button {
+
+                &:hover {
+                    border-bottom: 2px solid #fff;
+                }
+            }
+
+            &.mapbox-info-toggle {
+
+                &:hover {
+                    border-radius: 50%;
+                    height: 26px;
+                    opacity: 1;
+
+                    &:last-child {
+                        border-bottom: none;
+                    }
+                }
+            }
+        }
+
+        .leaflet-control-layers-toggle, .mobile-tap {
+            background-image: url(../img/icons-ffffff@2x.png);
+            background-position: 50% -106px;
+            background-size: 90%;
+            display: block;
+        }
+    }
+
+    .leaflet-control-layers-base {
+
+        label {
+            margin-bottom: 5px;
+        }
+
+        span {
+            font-size: 1em;
+        }
+
+        .leaflet-control-layers-selector {
+
+            &:checked {
+
+                & + span {
+                    color: $textColor;
+                    font-weight: 900;
+                    font-size: 1.06875em;
+                }
+            }
+        }
+    }
+
+    .leaflet-control-layers-separator {
+        border-top: 2px solid #fff;
+        margin: 10px -12px 9px;
+    }
+
+    .leaflet-control-layers-expanded {
+        border-bottom: 2px solid #fff;
+
+        .leaflet-control-layers-list {
+            background-color: #f1f1f1;
+            left: auto;
+            padding: 8px 12px;
+            position: relative;
+            top: auto;
+        }
+    }
+}
+
+/*  Footer  ** =================================================== */
+.footer-widget.span2 {
+    margin: 0;
+    width: 16.6667%;
+
+    .textwidget {
+        margin-top: 0;
+    }
+}
+
+.footer-nav {
+    margin: 0;
+
+    li {
+        margin: 0;
+    }
+
+    a {
+        padding: 0 8px 10px 0;
+        display: inline-block;
+    }
+}
+
+footer {
+
+    .sub-menu {
+
+        li {
+            width: 33%;
+        }
+    }
+}
+
+/*	Grid  ** =================================================== */
+.span1 { @include column(1) }
+.span2 { @include column(2) }
+.span3 { @include column(3) }
+.span4 { @include column(4) }
+.span5 { @include column(5) }
+.span6 { @include column(6) }
+.span7 { @include column(7) }
+.span8 { @include column(8) }
+.span9 { @include column(9) }
+.span10 { @include column(10) }
+.span11 { @include column(11) }
+
+.spread {
+    &> .span1 { @include pushpullwidth(1); }
+    &> .span2 { @include pushpullwidth(2); }
+    &> .span3 { @include pushpullwidth(3); }
+    &> .span4 { @include pushpullwidth(4); }
+    &> .span5 { @include pushpullwidth(5); }
+    &> .span6 { @include pushpullwidth(6); }
+    &> .span7 { @include pushpullwidth(7); }
+    &> .span8 { @include pushpullwidth(8); }
+    &> .span9 { @include pushpullwidth(9); }
+    &> .span10  { @include pushpullwidth(10); }
+    &> .span11  { @include pushpullwidth(11); }
+    &> .span12  { @include pushpullwidth(12); }
+}

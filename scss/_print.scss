@@ -1,0 +1,177 @@
+@page {
+     size: 8.5in 11in;
+     margin: 1in 0;
+}
+
+@page:first {
+     margin: 0 0 1in;
+}
+
+body {
+     width: 100%;
+     margin: 0;
+     padding: 0;
+     background : white;
+     color: #000;
+     font-size : 10pt;
+     line-height: 1.3;
+}
+
+header,
+nav,
+footer { 
+     display: none;
+}
+
+#infobox,
+#inputs,
+.geofind,
+#out,
+#errors,
+.leaflet-control-container {
+     display: none;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+     font-weight: normal;
+     page-break-after: avoid;
+}
+
+h1{font-size:16pt;}
+h2{font-size:14pt;}
+h3{font-size:12pt;}
+h4,h5,h6{font-size:11pt;}
+
+ul, ol, li {
+     list-style: none;
+}
+
+.page-template-map-php .chart-wrap, 
+.page-template-page-map .chart-wrap, 
+.page-template-page-map-php .chart-wrap {
+     display: block;
+     position: relative;
+     margin: 1cm 0;
+     clear: both;
+
+     .elevation-chart:not(:empty) {
+          background-color: #fff;
+          border: none;
+          box-shadow: none;
+     }
+}
+
+.page-template-map-php .map-wrapper, 
+.page-template-page-map .map-wrapper, 
+.page-template-page-map-php .map-wrapper {
+     bottom: auto;
+     left: auto;
+     display: block;
+     height: 100%;
+     overflow: visible;
+     position: relative;
+     right: auto;
+     top: auto;
+     width: 100%;
+}
+
+.page-template-map-php #map, 
+.page-template-page-map #map, 
+.page-template-page-map-php #map {
+     height: 6in;
+     position: relative;
+     width: 100%;
+}
+
+#reverse,
+#print,
+#reload {
+     display: none;
+}
+
+#directions {
+     bottom: auto;
+     clear: both;
+     display: block;
+     overflow: visible;
+     position: relative;
+     top: auto;
+     right: auto;
+     width: 100%;
+}
+
+#directions #routes:not(:empty) {
+     background-color: white;
+     border: none;
+     color: #000;
+     margin: .5cm 0;
+     max-width: 100%;
+     width: 100%;
+}
+
+.mapbox-directions-routes .mapbox-directions-route-active {
+     color: #000;
+     font-weight: 700;
+}
+
+#directions #routes {
+     background: white;
+}
+
+#directions #instructions:not(:empty) {
+     background-color: #fff;
+     border: none;
+     border-left: 20px solid #fff;
+     border-right: 20px solid #fff;
+     color: #000;
+     overflow: visible;
+     padding: 0;
+     max-width: 100%;
+     width: 100%;
+
+     ~ #reverse {
+        display: none;
+    }
+}
+
+#directions #instructions {
+     background: white;
+}
+
+.mapbox-directions-step {
+     background-color: #fff;
+     border-bottom: 1px dashed #dfdfdf;
+     color: #000;
+     display: block;
+     font-size: 9pt;
+     line-height: 1.5;
+     padding: 8px;
+}
+
+.mapbox-directions-step-maneuver {
+     padding: 0;
+     padding-left: 30px;
+     font-size: 12pt;
+}
+
+.mapbox-directions-step-distance {
+     bottom: 0;
+     color: #000;
+     left: 0;
+     font-size: 9pt;
+     padding-left: 30px;
+     position: relative;
+}
+
+.mapbox-drag-icon {
+     display: none;
+}
+
+.mapbox-directions-instructions .mapbox-directions-icon {
+     left: 10px;
+     top: 10px;
+}
+
+.single .route-info .route-description {
+     padding-top: 2rem;
+}

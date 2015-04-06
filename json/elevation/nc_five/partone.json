@@ -1,0 +1,251 @@
+[{
+    "elevation":503,"distance":0.1,"angle":294.4,"lat":"35.729830","lng":"-78.842895"
+},{
+    "elevation":501,"distance":0.5,"angle":294.14,"lat":"35.729828","lng":"-78.842893"
+},{
+    "elevation":493,"distance":1,"angle":294.7493,"lat":"35.728204","lng":"-78.834396"
+},{
+    "elevation":450,"distance":1.5,"angle":299.6555,"lat":"35.725109","lng":"-78.826505"
+},{
+    "elevation":460,"distance":2,"angle":334.9357,"lat":"35.721113","lng":"-78.819409"
+},{
+    "elevation":466,"distance":2.5,"angle":307.6336,"lat":"35.716794","lng":"-78.812395"
+},{
+    "elevation":484,"distance":3,"angle":270.6886,"lat":"35.712857","lng":"-78.805067"
+},{
+    "elevation":437,"distance":3.5,"angle":246.9669,"lat":"35.715347","lng":"-78.796784"
+},{
+    "elevation":449,"distance":4,"angle":297.7539,"lat":"35.716645","lng":"-78.788372"
+},{
+    "elevation":440,"distance":4.5,"angle":24.5599,"lat":"35.710389","lng":"-78.791807"
+},{
+    "elevation":464,"distance":5,"angle":349.9865,"lat":"35.703636","lng":"-78.794399"
+},{
+    "elevation":459,"distance":5.5,"angle":12.4039,"lat":"35.696478","lng":"-78.795509"
+},{
+    "elevation":452,"distance":6,"angle":0.3618,"lat":"35.689386","lng":"-78.797131"
+},{
+    "elevation":449,"distance":6.5,"angle":350.7468,"lat":"35.682162","lng":"-78.796719"
+},{
+    "elevation":423,"distance":7,"angle":308.1065,"lat":"35.675360","lng":"-78.794349"
+},{
+    "elevation":357,"distance":7.5,"angle":31.0841,"lat":"35.669139","lng":"-78.797094"
+},{
+    "elevation":389,"distance":8,"angle":324.3452,"lat":"35.663150","lng":"-78.794984"
+},{
+    "elevation":369,"distance":8.5,"angle":333.8597,"lat":"35.656928","lng":"-78.790486"
+},{
+    "elevation":331,"distance":9,"angle":346.811,"lat":"35.650816","lng":"-78.785993"
+},{
+    "elevation":431,"distance":9.5,"angle":337.9038,"lat":"35.644205","lng":"-78.782982"
+},{
+    "elevation":433,"distance":10,"angle":1.5791,"lat":"35.636996","lng":"-78.783259"
+},{
+    "elevation":446,"distance":10.5,"angle":338.4072,"lat":"35.630028","lng":"-78.781363"
+},{
+    "elevation":434,"distance":11,"angle":341.3357,"lat":"35.624220","lng":"-78.776160"
+},{
+    "elevation":413,"distance":11.5,"angle":359.589,"lat":"35.617202","lng":"-78.774776"
+},{
+    "elevation":357,"distance":12,"angle":346.9822,"lat":"35.610052","lng":"-78.775738"
+},{
+    "elevation":384,"distance":12.5,"angle":0.6637,"lat":"35.603265","lng":"-78.774292"
+},{
+    "elevation":409,"distance":13,"angle":356.1516,"lat":"35.596017","lng":"-78.774313"
+},{
+    "elevation":424,"distance":13.5,"angle":352.7015,"lat":"35.588826","lng":"-78.773186"
+},{
+    "elevation":409,"distance":14,"angle":353.4402,"lat":"35.581626","lng":"-78.772299"
+},{
+    "elevation":407,"distance":14.5,"angle":340.6734,"lat":"35.574692","lng":"-78.769768"
+},{
+    "elevation":380,"distance":15,"angle":29.9818,"lat":"35.568167","lng":"-78.773232"
+},{
+    "elevation":372,"distance":15.5,"angle":15.8705,"lat":"35.561258","lng":"-78.775677"
+},{
+    "elevation":376,"distance":16,"angle":348.7156,"lat":"35.554179","lng":"-78.777036"
+},{
+    "elevation":361,"distance":16.5,"angle":5.5225,"lat":"35.547090","lng":"-78.776728"
+},{
+    "elevation":345,"distance":17,"angle":343.6066,"lat":"35.540518","lng":"-78.776457"
+},{
+    "elevation":318,"distance":17.5,"angle":342.3943,"lat":"35.533579","lng":"-78.773875"
+},{
+    "elevation":319,"distance":18,"angle":2.4223,"lat":"35.526505","lng":"-78.772192"
+},{
+    "elevation":304,"distance":18.5,"angle":7.262,"lat":"35.519263","lng":"-78.772622"
+},{
+    "elevation":251,"distance":19,"angle":294.9413,"lat":"35.514918","lng":"-78.768322"
+},{
+    "elevation":239,"distance":19.5,"angle":294.907,"lat":"35.513480","lng":"-78.759781"
+},{
+    "elevation":300,"distance":20,"angle":288.6689,"lat":"35.510621","lng":"-78.751644"
+},{
+    "elevation":285,"distance":20.5,"angle":269.8913,"lat":"35.508323","lng":"-78.743258"
+},{
+    "elevation":278,"distance":21,"angle":350.4778,"lat":"35.503030","lng":"-78.740996"
+},{
+    "elevation":310,"distance":21.5,"angle":348.8623,"lat":"35.495932","lng":"-78.739184"
+},{
+    "elevation":296,"distance":22,"angle":345.5744,"lat":"35.488832","lng":"-78.737381"
+},{
+    "elevation":278,"distance":22.5,"angle":8.7949,"lat":"35.483002","lng":"-78.741854"
+},{
+    "elevation":243,"distance":23,"angle":352.1356,"lat":"35.475902","lng":"-78.743128"
+},{
+    "elevation":283,"distance":23.5,"angle":341.1672,"lat":"35.468887","lng":"-78.741113"
+},{
+    "elevation":281,"distance":24,"angle":25.2183,"lat":"35.462014","lng":"-78.741633"
+},{
+    "elevation":268,"distance":24.5,"angle":17.4454,"lat":"35.455487","lng":"-78.745488"
+},{
+    "elevation":247,"distance":25,"angle":7.8109,"lat":"35.448781","lng":"-78.748370"
+},{
+    "elevation":240,"distance":25.5,"angle":31.6016,"lat":"35.442236","lng":"-78.752013"
+},{
+    "elevation":242,"distance":26,"angle":15.1,"lat":"35.435876","lng":"-78.755922"
+},{
+    "elevation":226,"distance":26.5,"angle":262.9658,"lat":"35.432367","lng":"-78.754818"
+},{
+    "elevation":189,"distance":27,"angle":267.4319,"lat":"35.433137","lng":"-78.746031"
+},{
+    "elevation":253,"distance":27.5,"angle":277.1435,"lat":"35.433832","lng":"-78.737306"
+},{
+    "elevation":258,"distance":28,"angle":274.7049,"lat":"35.432049","lng":"-78.728860"
+},{
+    "elevation":244,"distance":28.5,"angle":2.5278,"lat":"35.425633","lng":"-78.729307"
+},{
+    "elevation":229,"distance":29,"angle":22.4904,"lat":"35.419258","lng":"-78.732724"
+},{
+    "elevation":209,"distance":29.5,"angle":8.7491,"lat":"35.412848","lng":"-78.736262"
+},{
+    "elevation":182,"distance":30,"angle":281.0892,"lat":"35.411697","lng":"-78.727527"
+},{
+    "elevation":231,"distance":30.5,"angle":270,"lat":"35.409478","lng":"-78.719117"
+},{
+    "elevation":215,"distance":31,"angle":36.1768,"lat":"35.404649","lng":"-78.718228"
+},{
+    "elevation":216,"distance":31.5,"angle":28.4704,"lat":"35.398405","lng":"-78.722716"
+},{
+    "elevation":201,"distance":32,"angle":9.1471,"lat":"35.391808","lng":"-78.726160"
+},{
+    "elevation":185,"distance":32.5,"angle":0.3943,"lat":"35.384811","lng":"-78.727334"
+},{
+    "elevation":177,"distance":33,"angle":350.3151,"lat":"35.377623","lng":"-78.726325"
+},{
+    "elevation":141,"distance":33.5,"angle":324.3686,"lat":"35.372450","lng":"-78.720663"
+},{
+    "elevation":192,"distance":34,"angle":346.1216,"lat":"35.366167","lng":"-78.716349"
+},{
+    "elevation":189,"distance":34.5,"angle":352.2175,"lat":"35.361050","lng":"-78.710959"
+},{
+    "elevation":196,"distance":35,"angle":341.9298,"lat":"35.354099","lng":"-78.708489"
+},{
+    "elevation":189,"distance":35.5,"angle":344.1102,"lat":"35.347297","lng":"-78.705441"
+},{
+    "elevation":182,"distance":36,"angle":298.8267,"lat":"35.341328","lng":"-78.701098"
+},{
+    "elevation":110,"distance":36.5,"angle":320.2985,"lat":"35.338015","lng":"-78.693374"
+},{
+    "elevation":120,"distance":37,"angle":316.7854,"lat":"35.333422","lng":"-78.686584"
+},{
+    "elevation":187,"distance":37.5,"angle":269.5381,"lat":"35.330496","lng":"-78.679221"
+},{
+    "elevation":189,"distance":38,"angle":358.005,"lat":"35.325865","lng":"-78.675946"
+},{
+    "elevation":183,"distance":38.5,"angle":49.225,"lat":"35.319132","lng":"-78.677921"
+},{
+    "elevation":179,"distance":39,"angle":309.652,"lat":"35.313326","lng":"-78.678854"
+},{
+    "elevation":165,"distance":39.5,"angle":337.8838,"lat":"35.308638","lng":"-78.672229"
+},{
+    "elevation":180,"distance":40,"angle":337.7458,"lat":"35.301883","lng":"-78.669016"
+},{
+    "elevation":179,"distance":40.5,"angle":326.9842,"lat":"35.295272","lng":"-78.665419"
+},{
+    "elevation":174,"distance":41,"angle":65.9227,"lat":"35.290251","lng":"-78.668594"
+},{
+    "elevation":167,"distance":41.5,"angle":0.4246,"lat":"35.284488","lng":"-78.671823"
+},{
+    "elevation":161,"distance":42,"angle":359.2274,"lat":"35.277254","lng":"-78.672252"
+},{
+    "elevation":157,"distance":42.5,"angle":348.8203,"lat":"35.270051","lng":"-78.671571"
+},{
+    "elevation":160,"distance":43,"angle":24.3981,"lat":"35.263246","lng":"-78.673498"
+},{
+    "elevation":148,"distance":43.5,"angle":39.6921,"lat":"35.256761","lng":"-78.677371"
+},{
+    "elevation":150,"distance":44,"angle":8.2673,"lat":"35.250306","lng":"-78.680501"
+},{
+    "elevation":141,"distance":44.5,"angle":6.1007,"lat":"35.243112","lng":"-78.681619"
+},{
+    "elevation":138,"distance":45,"angle":345.1863,"lat":"35.236295","lng":"-78.679425"
+},{
+    "elevation":135,"distance":45.5,"angle":24.4365,"lat":"35.229479","lng":"-78.680386"
+},{
+    "elevation":140,"distance":46,"angle":49.039,"lat":"35.223941","lng":"-78.685996"
+},{
+    "elevation":142,"distance":46.5,"angle":20.1311,"lat":"35.218204","lng":"-78.691207"
+},{
+    "elevation":138,"distance":47,"angle":9.6927,"lat":"35.211259","lng":"-78.693276"
+},{
+    "elevation":142,"distance":47.5,"angle":46.8022,"lat":"35.205023","lng":"-78.697398"
+},{
+    "elevation":141,"distance":48,"angle":42.3064,"lat":"35.200125","lng":"-78.703913"
+},{
+    "elevation":135,"distance":48.5,"angle":31.8688,"lat":"35.194734","lng":"-78.709823"
+},{
+    "elevation":125,"distance":49,"angle":21.4187,"lat":"35.187931","lng":"-78.712847"
+},{
+    "elevation":137,"distance":49.5,"angle":27.0863,"lat":"35.181392","lng":"-78.716666"
+},{
+    "elevation":139,"distance":50,"angle":25.5901,"lat":"35.174897","lng":"-78.720599"
+},{
+    "elevation":152,"distance":50.5,"angle":26.5586,"lat":"35.168408","lng":"-78.724545"
+},{
+    "elevation":151,"distance":51,"angle":29.4253,"lat":"35.161963","lng":"-78.728586"
+},{
+    "elevation":150,"distance":51.5,"angle":294.7099,"lat":"35.161834","lng":"-78.723273"
+},{
+    "elevation":162,"distance":52,"angle":291.381,"lat":"35.158954","lng":"-78.715170"
+},{
+    "elevation":154,"distance":52.5,"angle":324.4802,"lat":"35.155851","lng":"-78.707878"
+},{
+    "elevation":161,"distance":53,"angle":319.6229,"lat":"35.149826","lng":"-78.702982"
+},{
+    "elevation":163,"distance":53.5,"angle":347.6855,"lat":"35.143314","lng":"-78.699669"
+},{
+    "elevation":167,"distance":54,"angle":344.1587,"lat":"35.136315","lng":"-78.697358"
+},{
+    "elevation":163,"distance":54.5,"angle":18.1816,"lat":"35.129495","lng":"-78.697674"
+},{
+    "elevation":154,"distance":55,"angle":0.9436,"lat":"35.122272","lng":"-78.698091"
+},{
+    "elevation":153,"distance":55.5,"angle":354.0623,"lat":"35.115206","lng":"-78.696427"
+},{
+    "elevation":157,"distance":56,"angle":33.8781,"lat":"35.108544","lng":"-78.698503"
+},{
+    "elevation":153,"distance":56.5,"angle":33.6127,"lat":"35.102514","lng":"-78.703408"
+},{
+    "elevation":150,"distance":57,"angle":338.6113,"lat":"35.095878","lng":"-78.702374"
+},{
+    "elevation":148,"distance":57.5,"angle":10.3811,"lat":"35.088981","lng":"-78.700446"
+},{
+    "elevation":147,"distance":58,"angle":356.8951,"lat":"35.081807","lng":"-78.701262"
+},{
+    "elevation":139,"distance":58.5,"angle":356.2099,"lat":"35.074568","lng":"-78.700717"
+},{
+    "elevation":141,"distance":59,"angle":356.785,"lat":"35.067330","lng":"-78.700139"
+},{
+    "elevation":139,"distance":59.5,"angle":320.2436,"lat":"35.061833","lng":"-78.694559"
+},{
+    "elevation":142,"distance":60,"angle":1.6781,"lat":"35.055494","lng":"-78.691092"
+},{
+    "elevation":133,"distance":60.5,"angle":321.9966,"lat":"35.049000","lng":"-78.688237"
+},{
+    "elevation":108,"distance":61,"angle":70.1426,"lat":"35.043420","lng":"-78.691141"
+},{
+    "elevation":128,"distance":61.5,"angle":352.1194,"lat":"35.037206","lng":"-78.692127"
+},{
+    "elevation":127,"distance":62,"angle":42.9433,"lat":"35.030387","lng":"-78.693446"
+}]

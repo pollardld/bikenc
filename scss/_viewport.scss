@@ -1,0 +1,111 @@
+// Initial Width up to 25
+.container, footer {
+	display: block;
+	overflow: hidden;
+	margin: 0 auto;
+	max-width: 80%;
+}
+
+// starting media query
+$i: 25;
+
+// loop through responsive containers.
+@while $i < 50 {
+	
+	@media screen and (min-width: #{$i}em) { 		
+		.container, footer {
+			// 10% padding to window (5% each side)
+			max-width: $i * .9em;
+		}
+	}
+	// add 4 for next query
+	$i: $i + 4;
+}
+
+@media (min-width: 33em) {
+	@import '33';
+}
+
+@media (min-width: 56em) {
+	@import '56';
+}
+
+@media (min-width: 64em) {
+	@import '64';
+}
+
+@media screen and (min-width: 72em) {
+	@import '72';
+}
+
+@media screen and (min-width: 78em) {
+	@import '78';
+}
+
+// iPad with portrait orientation.
+@media screen and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+	.home .map-wrapper {
+		height: 890px;
+	}
+}
+ 
+// iPad with landscape orientation.
+@media screen and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape) {
+	.home .map-wrapper {
+		height: 680px;
+	}
+}
+ 
+// iPhone 6
+@media screen and (device-width: 375px) and (device-height: 667px) and ( orientation: portrait ) {
+	.home .map-wrapper {
+		height: 600px;
+	}
+}
+
+// iPhone 6
+@media screen and (device-width: 375px) and (device-height: 667px) and ( orientation: landscape ) {
+	.home .map-wrapper {
+		height: 320px;
+	}
+}	
+
+// iPhone 6 plus
+@media screen and (device-width: 414px) and (device-height: 736px) and ( orientation: portrait ) {
+	.home .map-wrapper {
+		height: 680px;
+	}
+}
+
+// iPhone 6 plus
+@media screen and (device-width: 414px) and (device-height: 736px) and ( orientation: landscape ) {
+	.home .map-wrapper {
+		height: 360px;
+	}
+}
+
+// iPhone 5
+@media screen and (device-aspect-ratio: 40/71) and ( orientation: portrait ) {
+	.home .map-wrapper {
+		height: 460px;
+	}
+}
+
+// iPhone 5 and 4 landscape
+@media screen and (device-aspect-ratio: 40/71) and ( orientation: landscape ), 
+		screen and (device-aspect-ratio: 2/3 ) and ( orientation: landscape ) {
+	.home .map-wrapper {
+		height: 240px;
+	}
+}
+
+// iPhone 4 
+@media screen and (device-aspect-ratio: 2/3 ) and ( orientation: portrait ) {
+	.home .map-wrapper {
+		height: 400px;
+	}
+}
+
+@media print {
+	@import 'print';
+}

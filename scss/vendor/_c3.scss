@@ -1,0 +1,209 @@
+/*-- Chart --*/
+.c3 svg {
+  font-family: $sans;
+  font-size: 10px;
+}
+.c3 path, .c3 line {
+  fill: none;
+  stroke: $midGrey;
+}
+.c3-ygrids .c3-ygrid {
+  stroke: rgba($lightGrey,0.6);
+  stroke-dasharray: 3px;
+}
+.c3 .tick line {
+  stroke: #ddd;
+  stroke-width: 1px;
+}
+.c3 .tick text {
+  color: $lightGrey;
+}
+.c3-axis-x {
+
+  .tick {
+
+    &:first-of-type {
+      opacity: 0 !important;
+    }
+
+    text {
+      font-size: 7px;
+    }
+  }
+}
+
+.c3 text {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.c3-legend-item-tile,
+.c3-xgrid-focus,
+.c3-ygrid,
+.c3-event-rect,
+.c3-bars path {
+  shape-rendering: auto;
+}
+
+.c3-chart-arc path {
+  stroke: #fff;
+}
+
+.c3-chart-arc text {
+  fill: #fff;
+  font-size: 12px;
+}
+
+/*-- Text on Chart --*/
+
+.c3-text {
+}
+
+.c3-text.c3-empty {
+  fill: #808080;
+  font-size: 2em;
+}
+
+/*-- Line --*/
+.c3-line {
+  stroke-width: 1px;
+}
+
+/*-- Point --*/
+.c3-circle._expanded_ {
+  stroke-width: 2px;
+  stroke: white;
+}
+.c3-selected-circle {
+  fill: white;
+  stroke-width: 2px;
+}
+
+/*-- Bar --*/
+.c3-bar {
+  stroke-width: 0;
+}
+.c3-bar._expanded_ {
+  fill-opacity: 0.75;
+}
+
+/*-- Arc --*/
+.c3-chart-arcs-title {
+  font-size: 1.3em;
+}
+
+/*-- Focus --*/
+.c3-target.c3-focused {
+  opacity: 1;
+}
+.c3-target.c3-focused path.c3-line, .c3-target.c3-focused path.c3-step {
+  stroke-width: 2px;
+}
+.c3-target.c3-defocused {
+  opacity: 0.3 !important;
+}
+
+/*-- Region --*/
+.c3-region {
+  fill: steelblue;
+  fill-opacity: .1;
+}
+
+/*-- Brush --*/
+
+.c3-brush .extent {
+  fill-opacity: .1;
+}
+
+/*-- Select - Drag --*/
+
+.c3-dragarea {
+}
+
+/*-- Legend --*/
+
+.c3-legend-item {
+  font-size: 12px;
+}
+
+.c3-legend-background {
+  opacity: 0.75;
+  fill: white;
+  stroke: lightgray;
+  stroke-width: 0
+}
+
+/*-- Tooltip --*/
+.c3-tooltip {
+  border-collapse:collapse;
+  border-spacing:0;
+  background-color:transparent;
+  empty-cells:show;
+
+  tr {
+    border:none;
+
+    &:nth-child(1n) {
+
+      td {
+        border: none;
+        font-family: $sans;
+        font-size: 10px;
+        padding: 3px 6px;
+        background-color: $textColor;
+          color: #fff;
+      }
+    }
+  }
+
+  th {
+    display: none;
+  }
+}
+
+.c3-tooltip .value:after {
+  content: 'ft';
+  padding-left: 2px;
+  position: relative;
+}
+
+.elevation-chart .c3-tooltip .value:after {
+  content: 'ft';
+}
+
+.c3-tooltip td > span {
+  display: none;
+}
+.c3-tooltip td.value{
+  border: none;
+  text-align: center;
+}
+.c3-tooltip .name {
+  display: none;
+}
+
+.c3-area {
+  stroke-width: 0;
+  opacity: 0.2;
+}
+
+.c3-chart-arcs .c3-chart-arcs-background {
+  fill: #e0e0e0;
+  stroke: none;
+}
+.c3-chart-arcs .c3-chart-arcs-gauge-unit {
+  fill: #000;
+  font-size: 16px;
+}
+.c3-chart-arcs .c3-chart-arcs-gauge-max {
+  fill: #777;
+}
+.c3-chart-arcs .c3-chart-arcs-gauge-min {
+  fill: #777;
+}
+
+.c3-chart-arc .c3-gauge-value {
+  fill: #000;
+  font-size: 28px;
+}

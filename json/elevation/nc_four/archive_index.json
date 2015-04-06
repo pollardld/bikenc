@@ -1,0 +1,46 @@
+[{
+	"elevation" : 795,
+	"name" : "Start",
+	"lat" : 36.575,
+	"lng" : -81.3074
+},{
+	"elevation" : 382,
+	"name" : "Dobson",
+	"lat" : 36.3956891,
+	"lng" : -80.722567
+},{
+	"elevation" : 181,
+	"name" : "Eden",
+	"lat" : 36.4884715,
+	"lng" : -79.7667026
+},{
+	"elevation" : 217,
+	"name" : "Roxboro",
+	"lat" : 36.3937519,
+	"lng" : -78.982788
+},{
+	"elevation" : 153,
+	"name" : "Henderson",
+	"lat" : 36.3295905,
+	"lng" : -78.3991638
+},{
+	"elevation" : 48,
+	"name" : "Roanoke Rapids",
+	"lat" : 36.4615395,
+	"lng" : -77.6541464
+},{
+	"elevation" : 13,
+	"name" : "Winton",
+	"lat" : 36.3957098,
+	"lng" : -76.93190349
+},{
+	"elevation" : 1,
+	"name" : "Elizabeth City",
+	"lat" : 36.2946008,
+	"lng" : -76.2510461
+},{
+	"elevation" : 3,
+	"name" : "Finish",
+	"lat" : 36.5504,
+	"lng" : -76.00409999999999
+}]

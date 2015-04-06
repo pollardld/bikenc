@@ -1,0 +1,421 @@
+#inputs, #errors {
+    position: absolute;
+    max-width: 200px;
+    min-width: 140px;
+}
+
+#inputs {
+    color: $textColor;
+    font-family: $sans;
+    left: 3rem;
+    top: 3rem;
+    overflow: hidden;
+    min-width: 0;
+    max-width: 0;
+    z-index: 10;
+    @include vendor-prefix (transition, 0.3s all ease-in-out);
+}
+
+#directions {
+    bottom: 0;
+    background: transparent;
+    left: 0;
+    overflow: scroll;
+    position: absolute;
+    right: 0;
+    top: 90%;
+    z-index: 99;
+    @include vendor-prefix (transition, 0.3s top ease-in-out);
+
+    &.add-top {
+        top: 60%;
+    }
+}
+
+.navigation-icon {
+    left: 5px;
+    height: 2.25rem;
+    padding: 8px 6px;
+    position: absolute;
+    top: 3rem;
+    width: 2.25rem;
+    @include vendor-prefix (transition, 0.3s all ease-in-out);
+
+    svg path {
+        fill: $textColor;
+        @include vendor-prefix (transition, 0.2s fill ease-in-out);
+    }
+}
+
+.directions-check {
+    left: 0;
+    height: 2rem;
+    opacity: 0;
+    position: absolute;
+    top: 3rem;
+    width: 2.75rem;
+    z-index: 5;
+
+    &:checked {
+
+        & ~ .navigation-icon {
+            @include vendor-prefix (transform, rotate(450deg));
+
+            svg path {
+                fill: $secondaryColor;
+            }
+        }
+        
+        & ~ #inputs {
+            min-width: 140px;
+            max-width: 200px;
+        }
+
+        & ~ .geofind {
+            height: 30px;
+            width: 30px;
+        }
+    }
+}
+
+#errors {
+    z-index: 8;
+    opacity: 0;
+    padding: 10px;
+    border-radius: 0 0 3px 3px;
+    background: rgba(0,0,0,.25);
+    top: 90px;
+    left: 80px;
+}
+
+#routes:empty, #instructions:empty {
+    pointer-events: none;
+}
+
+#routes:not(:empty), #instructions:not(:empty) {
+  background-color: rgba(231, 230, 229, .88);
+  border-left: 1px dashed $textColor;
+  pointer-events: auto;
+  max-width: 100%;
+}
+
+#instructions {
+    @include vendor-prefix (transition, 0.3s background-color ease-in-out);
+}
+
+.mapbox-icon {
+    background-image: url();
+}
+
+.mapbox-directions-icon {
+    background-image: url(../img/mapbox.directions_grey.png);
+}
+
+#out:not(:empty) {
+    background: rgba(0,0,0,0.8);
+    bottom: 5vh;
+    color: #fff;
+    font-size: .875em;
+    line-height: 1.5em;
+    padding: .125rem .75rem;
+    position: absolute;
+    left: 5vw;
+}
+
+.geofind {
+    background: transparent;
+    border: none;
+    height: 0px;
+    left: 176px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    top: 3rem;
+    width: 0px;
+    z-index: 99;
+    @include vendor-prefix (transition, 0.3s all ease-in-out);
+
+    &:hover {
+        cursor: pointer;
+
+        .icon-crosshair {
+            opacity: 1;
+        }
+    }
+
+    &.z-lower {
+        z-index: -1;
+    }
+}
+
+.icon-crosshair {
+    display: block;
+    height: 14px;
+    margin: 0 auto;
+    opacity: 0.7;
+    width: 14px;
+    @include vendor-prefix(transition, 0.2s opacity ease-in-out);
+}
+
+// Directions api
+/* Basics */
+.mapbox-directions-inputs, .mapbox-directions-errors, .mapbox-directions-routes, .mapbox-directions-instructions {
+    font-size: .875em;
+}
+
+.mapbox-directions-inputs, .mapbox-directions-inputs *, .mapbox-directions-errors, .mapbox-directions-errors *, .mapbox-directions-routes, .mapbox-directions-routes *, .mapbox-directions-instructions, .mapbox-directions-instructions * {
+    @include vendor-prefix(box-sizing, border-box);
+}
+
+/* Inputs */
+.mapbox-directions-origin, 
+.mapbox-directions-destination {
+    background-color: #ffffff;
+    position: relative;
+
+    .mapbox-form-label {
+        background-color: transparent;
+
+        .mapbox-directions-icon {
+            background-position: 50%;
+            background-size: contain;
+            height: 12px;
+            width: 16px;
+        }
+    }
+}
+
+.mapbox-directions-origin {
+    border-bottom: 2px solid $lightGrey;
+
+    .mapbox-form-label {
+
+        .mapbox-directions-icon {
+            background-image: url('../img/marker.svg');
+        }
+    }
+}
+
+
+.mapbox-directions-destination {
+
+    input {
+        border-top: 1px solid rgba(0,0,0,.1);
+    }
+
+    .mapbox-form-label {
+
+        .mapbox-directions-icon {
+            background-image: url('../img/marker-finish.svg');
+        }
+    }
+}
+
+.mapbox-directions-inputs {
+
+    input {
+        border: 0;
+        background-color: transparent;
+        color: $textColor;
+        font-size: .8125em;
+        height: 30px;
+        margin: 0;
+        padding: 7px 20px 7px 38px;
+        width: 100%;
+        
+        &:focus {
+            box-shadow: none;
+            outline: 0;
+        }
+    }
+
+    .mapbox-close-icon {
+        opacity: .7;
+        padding: 2px;
+        position: absolute;
+        right: 5px;
+        top: 6px;
+        cursor: pointer;
+        z-index: 2;
+    }
+}
+
+.mapbox-form-label {
+    background: $textColor;
+    color: $textColor;
+    cursor: pointer;
+    line-height: .75em;
+    font-weight: bold;
+    left: 0;
+    padding: 10px 8px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+}
+
+.mapbox-directions-reverse-input {
+    background-position: 50%;
+    background-size: contain;
+    background-color: transparent;
+    cursor: pointer;
+    height: 16px;
+    left: 22px;
+    top: 23px;
+    position: absolute;
+    width: 16px;
+    z-index: 10;
+
+    &.mapbox-directions-icon {
+        @extend .mapbox-directions-reverse-input;
+        background-image: url('../img/icon-reverse.svg');
+        background-repeat: no-repeat;
+    }
+}
+
+input:not(:valid) + .mapbox-close-icon {
+    display: none;
+}
+
+.mapbox-close-icon:hover {
+    opacity: .75;
+}
+
+/* Errors */
+.mapbox-directions-error {
+    color: white;
+    display: inline-block;
+    padding: 0 5px;
+}
+
+/* Routes */
+.mapbox-directions-routes ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px 10px 0 10px;
+    border-bottom: 1px solid rgba(255,255,255,.25);
+}
+
+.mapbox-directions-routes li {
+    font-size: 12px;
+    padding: 10px 10px 10px 80px;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    color: rgba($textColor,.75);
+    min-height: 60px;
+}
+
+.mapbox-directions-routes li:hover,
+.mapbox-directions-routes .mapbox-directions-route-active {
+    color: $textColor;
+}
+
+.mapbox-directions-route-heading {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.mapbox-directions-route-summary {
+    display: none;
+}
+
+.mapbox-directions-route-active .mapbox-directions-route-summary {
+    display: block;
+}
+
+.mapbox-directions-route-details {
+    font-size: 12px;
+    color: rgba($textColor,.75);
+}
+
+/* Instructions */
+.mapbox-directions-steps {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mapbox-directions-step {
+    position: relative;
+    color: rgba($textColor,.75);
+    cursor: pointer;
+    padding: 20px 20px 20px 40px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.mapbox-directions-step-distance {
+    color: rgba($textColor,.75);
+    position: absolute;
+    padding: 5px 10px;
+    font-size: 12px;
+    left: 30px;
+    bottom: -15px;
+}
+
+.mapbox-directions-step:hover {
+    color: rgba($textColor,1);
+}
+
+.mapbox-directions-step:after {
+    content: "";
+    position: absolute;
+    top: 50px;
+    bottom: -20px;
+    border-left: 2px dotted rgba(255,255,255,.2);
+    left: 20px;
+}
+
+.mapbox-directions-step:last-child:after,
+.mapbox-directions-step:last-child .mapbox-directions-step-distance {
+    display: none;
+}
+
+/* icons */
+.mapbox-directions-icon {
+    background-image: url('../img/mapbox.directions_grey.png');
+    -webkit-background-size: 280px 20px;
+    background-size: 280px 20px;
+    background-repeat: no-repeat;
+    margin: 0;
+    content: '';
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 20px;
+}
+
+.mapbox-directions-instructions .mapbox-directions-icon {
+    position: absolute;
+    left: 10px;
+    top: 25px;
+    margin: auto;
+}
+
+.mapbox-continue-icon         { background-position: 0 0; }
+.mapbox-sharp-right-icon      { background-position: -20px 0; }
+.mapbox-turn-right-icon       { background-position: -40px 0; }
+.mapbox-bear-right-icon       { background-position: -60px 0; }
+.mapbox-u-turn-icon           { background-position: -80px 0; }
+.mapbox-sharp-left-icon       { background-position: -100px 0; }
+.mapbox-turn-left-icon        { background-position: -120px 0; }
+.mapbox-bear-left-icon        { background-position: -140px 0; }
+.mapbox-depart-icon           { background-position: -160px 0; }
+.mapbox-enter-roundabout-icon { background-position: -180px 0; }
+.mapbox-arrive-icon           { background-position: -200px 0; }
+.mapbox-close-icon            { background-position: -220px 0; }
+.mapbox-error-icon { background-position: -260px 0; }
+
+.mapbox-marker-drag-icon {
+    // background-image: url(../img/icon-route_path.svg);
+    background-image: none;
+    background-size: contain;
+    display: block;
+}
+
+.waypoint-icon {
+    background-image: none;
+    background-color: #fff;
+}

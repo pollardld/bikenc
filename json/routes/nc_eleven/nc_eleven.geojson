@@ -1,0 +1,47 @@
+{
+	"type" : "FeatureCollection",
+	"features" : [{
+		"type": "Feature",
+	 	"properties": { 	 		
+	 		"id" : "nc_eleven",
+			"route" : "nc_elevenRoute",
+			"name": "NC 11 - Mountain Route",
+			"color" : "#0F738F",
+			"distance" : 1672,
+			"number" : 11,
+			"difficulty" : "Moderate/Difficult",
+			"markerCoordinates": [-77.7398,35.0626],
+			"title" : "Bicycling Lenoir County",
+			"imageurl" : "/wp-content/themes/walkbikenc/img/route-eleven.png",
+			"description" : "",
+            "icon" : {
+                "html" : "<div class='route-marker'><span>11</span><svg width='28' height='35'><circle cx='14' cy='14' r='14' fill='#ef4638'/><polyline fill='#ef4638' points='8,25 14,35 20,25'/></svg></div>",
+                "className" : "poi",
+                "iconAnchor" : [28,35],
+                "iconSize" : [28,35]
+            }
+		},
+	 	"geometry": { 
+	 		"type": "LineString",
+	 		"coordinates": [ 
+	 			[-77.7378,35.0674],
+	 			[-77.7381,35.0666],
+	 			[-77.7385,35.0658],
+	 			[-77.7388,35.0649],
+	 			[-77.7392,35.064],
+	 			[-77.7394,35.0634],
+	 			[-77.7395,35.0632],
+				[-77.7398,35.0626],
+				[-77.7403,35.0614],
+				[-77.7411,35.0595],
+				[-77.7438,35.0572],
+				[-77.7421,35.0583],
+				[-77.7411,35.059],
+				[-77.7308,35.0856],
+				[-77.73,35.081],
+				[-78.2026,34.4736],
+				[-78.2008,34.474]
+	 		]
+		}
+	}
+]}

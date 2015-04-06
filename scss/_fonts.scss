@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'thirsty_script';
+    src: url('../fonts/thirstyscriptregular-webfont.eot');
+    src: url('../fonts/thirstyscriptregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/thirstyscriptregular-webfont.woff2') format('woff2'),
+         url('../fonts/thirstyscriptregular-webfont.woff') format('woff'),
+         url('../fonts/thirstyscriptregular-webfont.ttf') format('truetype'),
+         url('../fonts/thirstyscriptregular-webfont.svg#thirsty_script_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tradegothic';
+    src: url('../fonts/tradegothicltstd-bold-webfont.eot');
+    src: url('../fonts/tradegothicltstd-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/tradegothicltstd-bold-webfont.woff') format('woff'),
+         url('../fonts/tradegothicltstd-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'icons';
+    src: url('../fonts/icons.eot');
+    src: url('../fonts/icons.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/icons.woff') format('woff'),
+         url('../fonts/icons.ttf') format('truetype'),
+         url('../fonts/icons.svg#icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "icons" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "icons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-twitter:before {
+  content: "a";
+}
+.icon-tumblr:before {
+  content: "b";
+}
+.icon-pinterest:before {
+  content: "c";
+}
+.icon-instagram:before {
+  content: "d";
+}
+.icon-facebook:before {
+  content: "e";
+}
+.icon-mail {
+    content: '';
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%220%200%2013.9%207.9%22%20enable-background%3D%22new%200%200%2013.9%207.9%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cg%3E%0D%0A%09%3Cpolyline%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20points%3D%2213.3%2C0.5%206.9%2C5.3%200.5%2C0.5%20%09%22/%3E%0D%0A%09%3Crect%20x%3D%220.5%22%20y%3D%220.5%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20width%3D%2212.9%22%20height%3D%226.9%22/%3E%0D%0A%3C/g%3E%0D%0A%3C/svg%3E%0D%0A');
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 10px;
+    vertical-align: text-top;
+    width: 16px;
+}

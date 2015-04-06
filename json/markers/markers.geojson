@@ -1,0 +1,236 @@
+{
+    "type" : "FeatureCollection",
+    "features" : [
+        {
+
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-79.0242,35.6325]
+            },
+            "properties": {
+                "id" : "us_one",
+                "title" : "CAROLINA CONNECTION",
+                "number" : 1,
+                "route" : "us_oneRoute",
+                "difficulty" : "Moderate/Difficult",
+                "distance" : 200,
+                "imageurl" : "/wp-content/themes/walkbikenc/img/route-seven.png",
+                "description" : "A portion of US Bike Route 1, this route covers ~200 miles of rolling terrain. It is the main north/south connector route through North Carolina. From Virginia, this route enters North Carolina near the Warren/Vance County border. US 1 continues south between Raleigh and Durham and through Sanford, Southern Pines, and Laurinburg before advancing into South Carolina.",
+                "permalink" : "/routes/us1-carolina-connection/",
+                "icon" : {
+                    "html" : "<div class='route-marker'><span>1</span><svg width='28' height='35'><circle cx='14' cy='14' r='14' fill='#ef4638'/><polyline fill='#ef4638' points='8,25 14,35 20,25'/></svg></div>",
+                    "className" : "poi",
+                    "iconAnchor" : [28,35],
+                    "iconSize" : [28,35]
+                },
+                "color" : "#AF7556"
+            }
+        },
+        {
+
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-77.5996,35.8272]
+            },
+            "properties": {
+                "id" : "nc_two",
+                "title" : "MOUNTAINS TO SEA",
+                "number" : 2,
+                "route" : "nc_twoRoute",
+                "difficulty" : "Moderate",
+                "distance" : 700,
+                "imageurl" : "/wp-content/themes/walkbikenc/img/route-seven.png",
+                "description" : "The 700+ mile NC 2 Mountains to Sea route serves as the main artery of the North Carolina bicycle route system, bisecting the state west to east. It connects many of North Carolina’s larger cities. The route begins in Murphy in the mountainous southwest and finishes in Manteo at the Outer Banks in the east.",
+                "permalink" : "/routes/nc2-mountains-to-sea/",
+                "icon" : {
+                    "html" : "<div class='route-marker'><span>2</span><svg width='28' height='35'><circle cx='14' cy='14' r='14' fill='#ef4638'/><polyline fill='#ef4638' points='8,25 14,35 20,25'/></svg></div>",
+                    "className" : "poi",
+                    "iconAnchor" : [28,35],
+                    "iconSize" : [28,35]
+                },
+                "color" : "#6599aa"
+            }
+        },
+        {
+
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-77.4765,34.8444]
+            },
+            "properties": {
+                "id" : "nc_three",
+                "title" : "PORTS OF CALL",
+                "number" : 3,
+                "route" : "nc_threeRoute",
+                "difficulty" : "Moderate",
+                "distance" : 300,
+                "imageurl" : "/wp-content/themes/walkbikenc/img/route-seven.png",
+                "description" : "This route traverses North Carolina’s long and varied coastline including two major sounds – the Pamlico and Albemarle Sounds. The ~300 mile route from Virginia to South Carolina passes through the major ports of the colonial era; Edenton, Bath, New Bern, Wilmington, and Southport among numerous other coastal communities.",
+                "permalink" : "/routes/nc3-ports-of-call/",
+                "icon" : {
+                    "html" : "<div class='route-marker'><span>3</span><svg width='28' height='35'><circle cx='14' cy='14' r='14' fill='#ef4638'/><polyline fill='#ef4638' points='8,25 14,35 20,25'/></svg></div>",
+                    "className" : "poi",
+                    "iconAnchor" : [28,35],
+                    "iconSize" : [28,35]
+                },
+                "color" : "#65aa6a"
+            }
+        },
+        {
+
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-76.8556,36.4267]
+            },
+            "properties": {
+                "id" : "nc_four",
+                "title" : "NORTH LINE TRACE",
+                "number" : 4,
+                "route" : "nc_fourRoute",
+                "difficulty" : "Moderate",
+                "distance" : 400,
+                "imageurl" : "/wp-content/themes/walkbikenc/img/route-seven.png",
+                "description" : "Running east/west from the mountains to the coast, this ~400 mile route runs just south of and parallel to North Carolina’s border with Virginia. It travels through or near numerous small towns including (from west to east) Eden, Roxboro, Henderson, Roanoke Rapids, and Elizabeth City.",
+                "permalink" : "/routes/nc4-north-line-trace/",
+                "icon" : {
+                    "html" : "<div class='route-marker'><span>4</span><svg width='28' height='35'><circle cx='14' cy='14' r='14' fill='#ef4638'/><polyline fill='#ef4638' points='8,25 14,35 20,25'/></svg></div>",
+                    "className" : "poi",
+                    "iconAnchor" : [28,35],
+                    "iconSize" : [28,35]
+                },
+                "color" : "#3E966D"
+            }
+        },
+        {
+
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-78.0985,34.4604]
+            },
+            "properties": {
+                "id" : "nc_five",
+                "title" : "CAPE FEAR RUN",
+                "number" : 5,
+                "route" : "nc_fiveRoute",
+                "difficulty" : "Moderate/Difficult",
+                "distance" : 160,
+                "imageurl" : "/wp-content/themes/walkbikenc/img/route-seven.png",
+                "description" : "This 160 mile route roughly parallels the course of the Cape Fear River through the southeast coastal plain. Rolling hills give way to flat land in the swamps and Carolina bays. NC 5 begins at its connection with US 1 in Apex, continuing through Fuquay-Varina, passing near Fayetteville, and ending in Wilmington at its intersection with the NC 3 route.",
+                "permalink" : "/routes/nc5-cape-fear-run/",
+                "icon" : {
+                    "html" : "<div class='route-marker'><span>5</span><svg width='28' height='35'><circle cx='14' cy='14' r='14' fill='#ef4638'/><polyline fill='#ef4638' points='8,25 14,35 20,25'/></svg></div>",
+                    "className" : "poi",
+                    "iconAnchor" : [28,35],
+                    "iconSize" : [28,35]
+                },
+                "color" : "#2A8F8E"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-80.7219,35.4098]
+            },
+            "properties": {
+                "id" : "nc_six",
+                "title" : "PIEDMONT SPUR",
+                "number" : 6,
+                "route" : "nc_sixRoute",
+                "difficulty" : "Moderate/Difficult",
+                "distance" : 200,
+                "imageurl" : "/wp-content/themes/walkbikenc/img/route-seven.png",
+                "description" : "This ~200 mile route that is a southern alternate to the piedmont portion of the NC 2 route. The western endpoint of NC 6 is located in the foothills of the Blue Ridge Mountains west of Lenoir and Morganton in Burke County before making its way southeast toward Charlotte. It passes through smaller towns such as Morganton, Lincolnton, and Albemarle before eventually finishing near Snow Camp.",
+                "permalink" : "/routes/nc6-piedmont-spur/",
+                "icon" : {
+                    "html" : "<div class='route-marker'><span>6</span><svg width='28' height='35'><circle cx='14' cy='14' r='14' fill='#ef4638'/><polyline fill='#ef4638' points='8,25 14,35 20,25'/></svg></div>",
+                    "className" : "poi",
+                    "iconAnchor" : [28,35],
+                    "iconSize" : [28,35]
+                },
+                "color" : "#C3B264"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-77.11788634,35.1492222]
+            },
+            "properties": {
+                "id" : "nc_seven",
+                "title" : "OCRACOKE OPTION",
+                "number" : 7,
+                "route" : "nc_sevenRoute",
+                "difficulty" : "Moderate/Difficult",
+                "distance" : 170,
+                "imageurl" : "/wp-content/themes/walkbikenc/img/route-seven.png",
+                "description" : "From its western terminus along the NC 2 Mountains to Sea route near Wilson, this ~170 mile route winds its way through the coastal plain to the Cedar Island Ferry over to Ocracoke. It passes through or near several smaller towns including Wilson, Goldsboro, Kinston, New Bern, and eventually Ocracoke.",
+                "permalink" : "/routes/nc7-ocracoke-option/",
+                "icon" : {
+                    "html" : "<div class='route-marker'><span>7</span><svg width='28' height='35'><circle cx='14' cy='14' r='14' fill='#ef4638'/><polyline fill='#ef4638' points='8,25 14,35 20,25'/></svg></div>",
+                    "className" : "poi",
+                    "iconAnchor" : [28,35],
+                    "iconSize" : [28,35]
+                },
+                "color" : "#77885C"
+            }
+        }, 
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-81.6619,35.4298]
+            },
+            "properties": {
+                "id" : "nc_eight",
+                "title" : "SOUTHERN HIGHLANDS",
+                "number" : 8,
+                "route" : "nc_eightRoute",
+                "difficulty" : "Moderate/Difficult",
+                "distance" : 120,
+                "imageurl" : "/wp-content/themes/walkbikenc/img/route-eight.png",
+                "description" : "This ~120 mile route begins northwest of Brevard with a 15-mile downhill from its connection with NC 2 on the Blue Ridge Parkway, passing through small mountain towns such as Brevard, Saluda, Flat Rock, and Tryon. It traverses the foothills of the Blue Ridge Mountains before turning northeast through Forest City and finishing at its intersection with the NC 6 in Lincolnton.",
+                "permalink" : "/routes/nc8-southern-highlands/",
+                "icon" : {
+                    "html" : "<div class='route-marker'><span>8</span><svg width='28' height='35'><circle cx='14' cy='14' r='14' fill='#ef4638'/><polyline fill='#ef4638' points='8,25 14,35 20,25'/></svg></div>",
+                    "className" : "poi",
+                    "iconAnchor" : [28,35],
+                    "iconSize" : [28,35]
+                },
+                "color" : "#AC4C5E"
+            }
+        },
+        {
+
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-79.6862,35.2266]
+            },
+            "properties": {
+                "id" : "sandhills",
+                "title" : "SANDHILLS SECTOR",
+                "number" : 9,
+                "route" : "sandhillsRoute",
+                "difficulty" : "Moderate",
+                "distance" : 125,
+                "imageurl" : "/wp-content/themes/walkbikenc/img/route-seven.png",
+                "description" : "The western terminus of the Sandhills Sector is its connection with NC 6 near the Pee Dee River and the town of Albemarle. Ending near the Cape Fear River at its connection with NC 5, this route traverses ~125 miles of sandhills terrain characterized by rolling topography rising from 500 to 700 feet above sea level.",
+                "permalink" : "/routes/nc9-sandhills-sector/",
+                "icon" : {
+                    "html" : "<div class='route-marker'><span>9</span><svg width='28' height='35'><circle cx='14' cy='14' r='14' fill='#ef4638'/><polyline fill='#ef4638' points='8,25 14,35 20,25'/></svg></div>",
+                    "className" : "poi",
+                    "iconAnchor" : [28,35],
+                    "iconSize" : [28,35]
+                },
+                "color" : "#684C7D"
+            }
+        }
+    ]
+}

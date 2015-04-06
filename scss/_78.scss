@@ -1,0 +1,35 @@
+.container {
+	max-width: 54em;
+}
+
+footer {
+	max-width: 70em;
+}
+
+/*  Header  ** =================================================== */
+.nav-menu {
+
+	.main-nav {
+
+		a {
+            padding: 0 .8125rem;
+        }
+    }
+}
+
+/*  Map Page  ** =================================================== */
+.page-template-map-php, .page-template-page-map, .page-template-page-map-php {
+
+    .chart-wrap {
+        width: 76.9375%;
+    }
+}
+
+/*  Map  ** =================================================== */
+
+/*  Directions  ** =================================================== */
+#routes:not(:empty), 
+#instructions:not(:empty) {
+    max-width: 23vw;
+    width: 23vw;
+}

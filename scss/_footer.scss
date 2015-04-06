@@ -1,0 +1,138 @@
+.footer-bg {
+	background: $textColor;
+}
+
+footer {
+	color: #fff;
+	line-height: 1.125rem;
+	padding: 2rem 0;
+
+	ul, ol {
+		list-style: none;
+		padding: 0;
+
+		li {
+			margin-bottom: .5rem;
+			padding-left: 0;
+			text-indent: 0;
+		}
+	}
+
+	a {
+		color: #fff;
+		display: block;
+		padding: .6875rem 40px .6875rem 15px;
+		position: relative;
+		z-index: 1;
+
+		&:before {
+			@include linkEffect();
+		}
+
+		&:after {
+			@include linkArrow();
+		}
+
+		&:focus, &:active {
+
+			&:before {
+				right: 0;
+			}
+		}
+	}
+	
+	.footer-routes {
+		font-size: .6125em;
+		font-weight: $bold;
+		letter-spacing: 0.05em;
+		list-style: none;
+		margin: 0 0 $margin;
+		padding: 0;
+		text-transform: uppercase;
+	}
+	
+	.menu-item-has-children {
+
+		> a {
+			font-size: .6125em;
+			font-weight: $bold;
+			letter-spacing: 0.05em;
+			margin-left: -5px;
+			padding-left: 5px;
+			text-transform: uppercase;
+		}
+	}
+
+	.sub-menu {
+		margin: 0;
+
+		a {
+			font-weight: $light;
+		}
+
+		li {
+			float: left;
+			width: 100%;
+		}
+	}
+}
+
+.footer-widget {
+	font-size: .6125em;
+	font-weight: $bold;
+	letter-spacing: 0.05em;
+	margin-bottom: $margin;
+	text-transform: uppercase;
+
+	a {
+		display: inline;
+		padding: 0;
+
+		&:after {
+			display: none;
+		}
+	}
+
+	.textwidget {
+		font-size: 1.25em;
+		font-weight: $light;
+		letter-spacing: 0em;
+		margin-top: .625rem;
+		text-transform: none;
+	}
+
+	.tel {
+		display: block;
+	}
+
+	i {
+		font-size: 1.25em;
+		margin-right: .5rem;
+	}
+}
+
+.about-widget {
+	font-size: .6125em;
+	font-weight: $bold;
+	letter-spacing: 0.05em;
+	line-height: 1.9375em;
+	margin-bottom: $margin;
+	text-transform: uppercase;
+
+	a {
+		display: inline;
+		padding: 0;
+
+		&:after {
+			display: none;
+		}
+	}
+
+	.textwidget {
+		font-size: 1.25em;
+		font-weight: $light;
+		letter-spacing: 0em;
+		margin-top: .625rem;
+		text-transform: none;
+	}
+}

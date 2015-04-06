@@ -1,0 +1,18 @@
+{
+	"type" : "FeatureCollection",
+	"features" : [{
+		"type": "Feature",
+	 	"properties": { 
+	 		"id": "B-NC Bicycling Highways",
+	 		"name": "NC 11 - Mountain Route",
+	 		"color" : "#0F738F",
+	 		"length" : 1672
+		},
+	 	"geometry": { 
+	 		"type": "LineString",
+	 		"coordinates": [ 
+	 			
+	 		]
+		}
+	}
+]}

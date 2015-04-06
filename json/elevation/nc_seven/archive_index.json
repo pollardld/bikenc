@@ -1,0 +1,36 @@
+[{
+	"elevation" : 1,
+	"name" : "Ocracoke",
+	"lat" : 35.1146152,
+	"lng" : -75.9810097
+},{
+	"elevation" : 1,
+	"name" : "Start",
+	"lat" : 35.01664158417076,
+	"lng" : -76.31627082824707
+},{
+	"elevation" : 3,
+	"name" : "New Bern",
+	"lat" : 35.108493,
+	"lng" : -77.04411429
+},{
+	"elevation" : 13,
+	"name" : "Kinston",
+	"lat" : 35.2626635,
+	"lng" : -77.5816353
+},{
+	"elevation" : 33,
+	"name" : "Goldsboro",
+	"lat" : 35.3848841,
+	"lng" : -77.99276509000001
+},{
+	"elevation" : 34,
+	"name" : "Wilson",
+	"lat" : 35.7212689,
+	"lng" : -77.91553949999999
+},{
+	"elevation" : 58,
+	"name" : "Finish",
+	"lat" : 35.810156948713,
+	"lng" : -78.00189971923828
+}]

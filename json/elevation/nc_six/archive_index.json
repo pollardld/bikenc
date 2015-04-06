@@ -1,0 +1,41 @@
+[{
+	"elevation" : 334,
+	"name" : "Start",
+	"lat" : 35.8619,
+	"lng" : -81.7848
+},{
+	"elevation" : 352,
+	"name" : "Morganton",
+	"lat" : 35.7454071,
+	"lng" : -81.6848188
+},{
+	"elevation" : 254,
+	"name" : "Lincolnton",
+	"lat" : 35.473745,
+	"lng" : -81.2545251
+},{
+	"elevation" : 246,
+	"name" : "Huntersville",
+	"lat" : 35.410694,
+	"lng" : -80.8428504
+},{
+	"elevation" : 145,
+	"name" : "Albemarle",
+	"lat" : 35.3501426,
+	"lng" : -80.20005779
+},{
+	"elevation" : 228,
+	"name" : "Seagrove",
+	"lat" : 35.5404147,
+	"lng" : -79.77309009
+},{
+	"elevation" : 181,
+	"name" : "Finish",
+	"lat" : 35.888,
+	"lng" : -79.44499999999999
+},{
+	"elevation" : 183,
+	"name" : "Snow Camp",
+	"lat" : 35.8934716,
+	"lng" : -79.43001989
+}]

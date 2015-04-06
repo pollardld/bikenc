@@ -1,0 +1,38 @@
+/*============================================
+  Grid
+=============================================*/
+$columns: 12;
+$gutter-width: 3%;
+$column-width: (100 / $columns) - $gutter-width;
+$total-width: (($column-width + $gutter-width) * $columns);
+
+@mixin column ($x, $columns:$columns) {
+  display: inline;
+  float: left;
+  width: $total-width * (((($gutter-width + $column-width) * $x) - $gutter-width) / $total-width);
+  margin: 0 $total-width * (($gutter-width * .5) / $total-width);
+}
+
+@mixin push ($columns:$columns) {
+  margin: 0 0 0 $total-width * (($gutter-width * .5) / $total-width);
+}
+@mixin pull ($columns:$columns) {
+  margin: 0 $total-width * (($gutter-width * .5) / $total-width) 0 0;
+}
+@mixin pushpullwidth ($x, $columns:$columns) {
+  width: (($total-width - ((2 * ($gutter-width * .5)) + ((($columns / $x) - 2) * $gutter-width)))) / ($columns / $x); 
+}
+@mixin row($columns) { @include pushpullwidth($columns); }
+
+.span1 { @include column(12) }
+.span2 { @include column(12) }
+.span3 { @include column(12) }
+.span4 { @include column(12) }
+.span5 { @include column(12) }
+.span6 { @include column(12) }
+.span7 { @include column(12) }
+.span8 { @include column(12) }
+.span9 { @include column(12) }
+.span10 { @include column(12) }
+.span11 { @include column(12) }
+.span12 { @include column(12) }

@@ -1,0 +1,10 @@
+.DS_STORE
+wp-admin
+wp-includes
+wp-config.php
+wp-content/plugins/
+wp-content/upgrade/
+wp-content/wp-uploads/
+wp-content/themes/twentyfourteen
+wp-content/themes/twentythirteen
+wp-content/themes/twentytwelve

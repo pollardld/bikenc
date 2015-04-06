@@ -1,0 +1,742 @@
+var nc_eight_route = [{
+	"maneuver":{
+		"type":"depart",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.79062,35.373353]
+		},
+		"instruction":"Head <span class=\"mapbox-directions-direction\">north</span> on <span class=\"mapbox-directions-way-name\">Cruso Road / US 276</span>"
+	},
+	"distance":17,
+	"duration":3123,
+	"way_name":"Cruso Road / US 276","direction":"N","heading":0
+},{
+	"maneuver":{
+		"type":"continue",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.790464,35.373288]
+		},
+		"instruction":"Continue on <span class=\"mapbox-directions-way-name\">US 276</span>"
+	},
+	"distance":1495,
+	"duration":595,
+	"way_name":"US 276","direction":"SE","heading":128
+},{
+	"maneuver":{
+		"type":"waypoint",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.792373,35.36235]
+		},
+		"instruction":"Reach waypoint and continue on <span class=\"mapbox-directions-way-name\">US 276</span>"
+	},
+	"distance":7096,
+	"duration":4887,
+	"way_name":"US 276","direction":"E","heading":70
+},{
+	"maneuver":{
+		"type":"waypoint",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.788958,35.334236]
+		},
+		"instruction":"Reach waypoint and continue on <span class=\"mapbox-directions-way-name\">US 276</span>"
+	},
+	"distance":4784,
+	"duration":4161,
+	"way_name":"US 276","direction":"S","heading":192
+},{
+	"maneuver":{
+		"type":"continue",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.774374,35.304928]
+		},
+		"instruction":"Continue on <span class=\"mapbox-directions-way-name\">Moore Cove Falls Trailhead Parking</span>"
+	},
+	"distance":12,
+	"duration":8,
+	"way_name":"Moore Cove Falls Trailhead Parking","direction":"N","heading":7
+},{
+	"maneuver":{
+		"type":"continue",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.774363,35.305037]
+		},
+		"instruction":"Continue on <span class=\"mapbox-directions-way-name\">US 276</span>"
+	},
+	"distance":37,
+	"duration":26,
+	"way_name":"US 276","direction":"N","heading":0
+},{
+	"maneuver":{
+		"type":"continue",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.774394,35.305364]
+		},
+		"instruction":"Continue on <span class=\"mapbox-directions-way-name\">Moore Cove Falls Trailhead Parking</span>"
+	},
+	"distance":42,
+	"duration":30,
+	"way_name":"Moore Cove Falls Trailhead Parking","direction":"N","heading":349
+},{
+	"maneuver":{
+		"type":"continue",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.774468,35.305731]
+		},
+		"instruction":"Continue on <span class=\"mapbox-directions-way-name\">US 276</span>"
+	},
+	"distance":1626,
+	"duration":1170,
+	"way_name":"US 276","direction":"N","heading":0
+},{
+	"maneuver":{
+		"type":"continue",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.769487,35.296409]
+		},
+		"instruction":"Continue on <span class=\"mapbox-directions-way-name\">Looking Glass Falls Parking</span>"
+	},
+	"distance":6,
+	"duration":4,
+	"way_name":"Looking Glass Falls Parking","direction":"SW","heading":240
+},{
+	"maneuver":{
+		"type":"continue",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.76954,35.296386]
+		},
+		"instruction":"Continue on <span class=\"mapbox-directions-way-name\">US 276</span>"
+	},
+	"distance":34,
+	"duration":24,
+	"way_name":"US 276","direction":"SW","heading":239
+},{
+	"maneuver":{
+		"type":"continue",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.769856,35.296227]
+		},
+		"instruction":"Continue on <span class=\"mapbox-directions-way-name\">Looking Glass Falls Parking</span>"
+	},
+	"distance":68,
+	"duration":49,
+	"way_name":"Looking Glass Falls Parking","direction":"SW","heading":239
+},{
+	"maneuver":{
+		"type":"continue",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.770503,35.295907]
+		},
+		"instruction":"Continue on <span class=\"mapbox-directions-way-name\">US 276</span>"
+	},
+	"distance":31,
+	"duration":22,
+	"way_name":"US 276","direction":"SW","heading":235
+},{
+	"maneuver":{
+		"type":"continue",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.770795,35.295749]
+		},
+		"instruction":"Continue on <span class=\"mapbox-directions-way-name\">Looking Glass Falls Parking</span>"
+	},
+	"distance":69,
+	"duration":49,
+	"way_name":"Looking Glass Falls Parking","direction":"SW","heading":230
+},{
+	"maneuver":{
+		"type":"continue",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.771349,35.295336]
+		},
+		"instruction":"Continue on <span class=\"mapbox-directions-way-name\">US 276</span>"
+	},
+	"distance":2567,
+	"duration":834,
+	"way_name":"US 276","direction":"SW","heading":213
+},{
+	"maneuver":{
+		"type":"waypoint",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.755101,35.28054]
+		},
+		"instruction":"Reach waypoint and continue on <span class=\"mapbox-directions-way-name\">US 276</span>"
+	},
+	"distance":4368,
+	"duration":4162,
+	"way_name":"US 276","direction":"E","heading":104
+},{
+	"maneuver":{
+		"type":"waypoint",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.720975,35.282726]
+		},
+		"instruction":"Reach waypoint and continue on <span class=\"mapbox-directions-way-name\">US 276</span>"
+	},
+	"distance":1191,
+	"duration":884,
+	"way_name":"US 276","direction":"E","heading":107
+},{
+	"maneuver":{
+		"type":"continue",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.711982,35.276087]
+		},
+		"instruction":"Continue on <span class=\"mapbox-directions-way-name\">Pisgah Highway / US 276</span>"
+	},
+	"distance":764,
+	"duration":552,
+	"way_name":"Pisgah Highway / US 276","direction":"SE","heading":135
+},{
+	"maneuver":{
+		"type":"continue",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.704105,35.273863]
+		},
+		"instruction":"Continue on <span class=\"mapbox-directions-way-name\">Pisgah Highway / US 64;US 276</span>"
+	},
+	"distance":16,
+	"duration":13,
+	"way_name":"Pisgah Highway / US 64;US 276","direction":"E","heading":108
+},{
+	"maneuver":{
+		"type":"continue",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.703939,35.27382]
+		},
+		"instruction":"Continue on <span class=\"mapbox-directions-way-name\">US 64</span>"
+	},
+	"distance":786,
+	"duration":565,
+	"way_name":"US 64","direction":"E","heading":110
+},{
+	"maneuver":{
+		"type":"turn right",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.695883,35.271265]
+		},
+		"instruction":"Turn right onto <span class=\"mapbox-directions-way-name\">{highway:residential}</span>"
+	},
+	"distance":173,
+	"duration":124,
+	"way_name":"{highway:residential}","direction":"SW","heading":208
+},{
+	"maneuver":{
+		"type":"sharp right",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.695497,35.270178]
+		},
+		"instruction":"Make a sharp right onto <span class=\"mapbox-directions-way-name\">Davidson River Road</span>"
+	},
+	"distance":1927,
+	"duration":1387,
+	"way_name":"Davidson River Road","direction":"W","heading":248
+},{
+	"maneuver":{
+		"type":"bear left",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.697299,35.255326]
+		},
+		"instruction":"Bear left onto <span class=\"mapbox-directions-way-name\">Old Hendersonville Highway / Old 64</span>"
+	},
+	"distance":1332,
+	"duration":959,
+	"way_name":"Old Hendersonville Highway / Old 64","direction":"NE","heading":67
+},{
+	"maneuver":{
+		"type":"turn right",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.683784,35.253364]
+		},
+		"instruction":"Turn right onto <span class=\"mapbox-directions-way-name\">Everett Road</span>"
+	},
+	"distance":2225,
+	"duration":1167,
+	"way_name":"Everett Road","direction":"E","heading":101
+},{
+	"maneuver":{
+		"type":"waypoint",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.663904,35.257874]
+		},
+		"instruction":"Reach waypoint and continue on <span class=\"mapbox-directions-way-name\">Everett Road</span>"
+	},
+	"distance":2932,
+	"duration":2622,
+	"way_name":"Everett Road","direction":"E","heading":93
+},{
+	"maneuver":{
+		"type":"turn right",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.633838,35.254584]
+		},
+		"instruction":"Turn right onto <span class=\"mapbox-directions-way-name\">Crab Creek Road</span>"
+	},
+	"distance":1642,
+	"duration":1172,
+	"way_name":"Crab Creek Road","direction":"S","heading":162
+},{
+	"maneuver":{
+		"type":"waypoint",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.631573,35.243292]
+		},
+		"instruction":"Reach waypoint and continue on <span class=\"mapbox-directions-way-name\">Crab Creek Road</span>"
+	},
+	"distance":14716,
+	"duration":10608,
+	"way_name":"Crab Creek Road","direction":"SE","heading":144
+},{
+	"maneuver":{
+		"type":"turn right",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.500936,35.271387]
+		},
+		"instruction":"Turn right onto <span class=\"mapbox-directions-way-name\">Little River Road</span>"
+	},
+	"distance":1167,
+	"duration":598,
+	"way_name":"Little River Road","direction":"SE","heading":142
+},{
+	"maneuver":{
+		"type":"waypoint",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.491546,35.266959]
+		},
+		"instruction":"Reach waypoint and continue on <span class=\"mapbox-directions-way-name\">Little River Road</span>"
+	},
+	"distance":5339,
+	"duration":4088,
+	"way_name":"Little River Road","direction":"SE","heading":135
+},{
+	"maneuver":{
+		"type":"bear right",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.441892,35.272749]
+		},
+		"instruction":"Bear right onto <span class=\"mapbox-directions-way-name\">Greenville Highway / NC 225</span>"
+	},
+	"distance":177,
+	"duration":127,
+	"way_name":"Greenville Highway / NC 225","direction":"S","heading":165
+},{
+	"maneuver":{
+		"type":"turn left",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.441603,35.271171]
+		},
+		"instruction":"Turn left onto <span class=\"mapbox-directions-way-name\">West Blue Ridge Road</span>"
+	},
+	"distance":1956,
+	"duration":1408,
+	"way_name":"West Blue Ridge Road","direction":"E","heading":77
+},{
+	"maneuver":{
+		"type":"turn right",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.424678,35.27411]
+		},
+		"instruction":"Turn right onto <span class=\"mapbox-directions-way-name\">Roper Road</span>"
+	},
+	"distance":1613,
+	"duration":1161,
+	"way_name":"Roper Road","direction":"SE","heading":125
+},{
+	"maneuver":{
+		"type":"turn right",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.409135,35.267758]
+		},
+		"instruction":"Turn right onto <span class=\"mapbox-directions-way-name\">Spartanburg Highway / US 176;US 25 Business</span>"
+	},
+	"distance":1192,
+	"duration":858,
+	"way_name":"Spartanburg Highway / US 176;US 25 Business","direction":"S","heading":158
+},{
+	"maneuver":{
+		"type":"continue",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.407449,35.257175]
+		},
+		"instruction":"Continue on <span class=\"mapbox-directions-way-name\">Spartanburg Highway / US 176</span>"
+	},
+	"distance":1060,
+	"duration":490,
+	"way_name":"Spartanburg Highway / US 176","direction":"S","heading":176
+},{
+	"maneuver":{
+		"type":"waypoint",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.406688,35.247912]
+		},
+		"instruction":"Reach waypoint and continue on <span class=\"mapbox-directions-way-name\">Spartanburg Highway / US 176</span>"
+	},
+	"distance":5812,
+	"duration":4467,
+	"way_name":"Spartanburg Highway / US 176","direction":"SE","heading":139
+},{
+	"maneuver":{
+		"type":"continue",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.359362,35.236024]
+		},
+		"instruction":"Continue on <span class=\"mapbox-directions-way-name\">US 176</span>"
+	},
+	"distance":881,
+	"duration":627,
+	"way_name":"US 176","direction":"E","heading":86
+},{
+	"maneuver":{
+		"type":"waypoint",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.349974,35.236237]
+		},
+		"instruction":"Reach waypoint and continue on <span class=\"mapbox-directions-way-name\">US 176</span>"
+	},
+	"distance":46,
+	"duration":61,
+	"way_name":"US 176","direction":"NE","heading":48
+},{
+	"maneuver":{
+		"type":"bear right",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.34955,35.236453]
+		},
+		"instruction":"Bear right onto <span class=\"mapbox-directions-way-name\">Hart Street / US 176</span>"
+	},
+	"distance":147,
+	"duration":105,
+	"way_name":"Hart Street / US 176","direction":"E","heading":108
+},{
+	"maneuver":{
+		"type":"continue",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.348063,35.235957]
+		},
+		"instruction":"Continue on <span class=\"mapbox-directions-way-name\">Main Street / US 176</span>"
+	},
+	"distance":676,
+	"duration":486,
+	"way_name":"Main Street / US 176","direction":"SE","heading":122
+},{
+	"maneuver":{
+		"type":"bear right",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.341062,35.236774]
+		},
+		"instruction":"Bear right onto <span class=\"mapbox-directions-way-name\">US 176</span>"
+	},
+	"distance":11094,
+	"duration":7523,
+	"way_name":"US 176","direction":"E","heading":112
+},{
+	"maneuver":{
+		"type":"waypoint",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.247119,35.21907]
+		},
+		"instruction":"Reach waypoint and continue on <span class=\"mapbox-directions-way-name\">US 176</span>"
+	},
+	"distance":242,
+	"duration":652,
+	"way_name":"US 176","direction":"SE","heading":133
+},{
+	"maneuver":{
+		"type":"continue",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.24496,35.217844]
+		},
+		"instruction":"Continue on <span class=\"mapbox-directions-way-name\">North Trade Street / US 176</span>"
+	},
+	"distance":1254,
+	"duration":902,
+	"way_name":"North Trade Street / US 176","direction":"SE","heading":124
+},{
+	"maneuver":{
+		"type":"continue",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.238249,35.20865]
+		},
+		"instruction":"Continue on <span class=\"mapbox-directions-way-name\">South Trade Street / US 176</span>"
+	},
+	"distance":139,
+	"duration":100,
+	"way_name":"South Trade Street / US 176","direction":"SE","heading":132
+},{
+	"maneuver":{
+		"type":"bear left",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.237486,35.207612]
+		},
+		"instruction":"Bear left onto <span class=\"mapbox-directions-way-name\">New Market Road</span>"
+	},
+	"distance":256,
+	"duration":142,
+	"way_name":"New Market Road","direction":"SE","heading":143
+},{
+	"maneuver":{
+		"type":"waypoint",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.235051,35.206692]
+		},
+		"instruction":"Reach waypoint and continue on <span class=\"mapbox-directions-way-name\">New Market Road</span>"
+	},
+	"distance":1476,
+	"duration":841,
+	"way_name":"New Market Road","direction":"E","heading":107
+},{
+	"maneuver":{
+		"type":"waypoint",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.226799,35.205229]
+		},
+		"instruction":"Reach waypoint and continue on <span class=\"mapbox-directions-way-name\">New Market Road</span>"
+	},
+	"distance":1153,
+	"duration":1072,
+	"way_name":"New Market Road","direction":"E","heading":73
+},{
+	"maneuver":{
+		"type":"waypoint",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.219024,35.198471]
+		},
+		"instruction":"Reach waypoint and continue on <span class=\"mapbox-directions-way-name\">New Market Road</span>"
+	},
+	"distance":50,
+	"duration":154,
+	"way_name":"New Market Road","direction":"SE","heading":119
+},{
+	"maneuver":{
+		"type":"turn left",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.218591,35.198203]
+		},
+		"instruction":"Turn left onto <span class=\"mapbox-directions-way-name\">Hunting Country Road</span>"
+	},
+	"distance":2839,
+	"duration":1913,
+	"way_name":"Hunting Country Road","direction":"NE","heading":64
+},{
+	"maneuver":{
+		"type":"waypoint",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.194133,35.209264]
+		},
+		"instruction":"Reach waypoint and continue on <span class=\"mapbox-directions-way-name\">Hunting Country Road</span>"
+	},
+	"distance":3488,
+	"duration":2605,
+	"way_name":"Hunting Country Road","direction":"E","heading":94
+},{
+	"maneuver":{
+		"type":"waypoint",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.173187,35.193928]
+		},
+		"instruction":"Reach waypoint and continue on <span class=\"mapbox-directions-way-name\">Hunting Country Road</span>"
+	},
+	"distance":321,
+	"duration":437,
+	"way_name":"Hunting Country Road","direction":"E","heading":91
+},{
+	"maneuver":{
+		"type":"continue",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.169662,35.193831]
+		},
+		"instruction":"Continue on <span class=\"mapbox-directions-way-name\">Webster Road</span>"
+	},
+	"distance":132,
+	"duration":94,
+	"way_name":"Webster Road","direction":"E","heading":99
+},{
+	"maneuver":{
+		"type":"turn left",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.16836,35.193363]
+		},
+		"instruction":"Turn left onto <span class=\"mapbox-directions-way-name\">East Prince Road</span>"
+	},
+	"distance":27,
+	"duration":19,
+	"way_name":"East Prince Road","direction":"NE","heading":27
+},{
+	"maneuver":{
+		"type":"continue",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.168219,35.193578]
+		},
+		"instruction":"Continue on <span class=\"mapbox-directions-way-name\">Hunting Country Road</span>"
+	},
+	"distance":2139,
+	"duration":1331,
+	"way_name":"Hunting Country Road","direction":"N","heading":21
+},{
+	"maneuver":{
+		"type":"waypoint",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.155093,35.207361]
+		},
+		"instruction":"Reach waypoint and continue on <span class=\"mapbox-directions-way-name\">Hunting Country Road</span>"
+	},
+	"distance":814,
+	"duration":846,
+	"way_name":"Hunting Country Road","direction":"NE","heading":46
+},{
+	"maneuver":{
+		"type":"sharp right",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.150091,35.213289]
+		},
+		"instruction":"Make a sharp right onto <span class=\"mapbox-directions-way-name\">Red Fox Road</span>"
+	},
+	"distance":2301,
+	"duration":1656,
+	"way_name":"Red Fox Road","direction":"S","heading":167
+},{
+	"maneuver":{
+		"type":"turn left",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.136405,35.196519]
+		},
+		"instruction":"Turn left onto <span class=\"mapbox-directions-way-name\">Landrum Road</span>"
+	},
+	"distance":7191,
+	"duration":5177,
+	"way_name":"Landrum Road","direction":"NE","heading":29
+},{
+	"maneuver":{
+		"type":"continue",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.088898,35.244499]
+		},
+		"instruction":"Continue on <span class=\"mapbox-directions-way-name\">Sandy Plains Road</span>"
+	},
+	"distance":2139,
+	"duration":1539,
+	"way_name":"Sandy Plains Road","direction":"N","heading":22
+},{
+	"maneuver":{
+		"type":"waypoint",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.072984,35.257186]
+		},
+		"instruction":"Reach waypoint and continue on <span class=\"mapbox-directions-way-name\">Sandy Plains Road</span>"
+	},
+	"distance":4776,
+	"duration":3442,
+	"way_name":"Sandy Plains Road","direction":"NE","heading":46
+},{
+	"maneuver":{
+		"type":"continue",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.03468,35.275089]
+		},
+		"instruction":"Continue on <span class=\"mapbox-directions-way-name\">Coxe Road</span>"
+	},
+	"distance":3324,
+	"duration":2393,
+	"way_name":"Coxe Road","direction":"N","heading":349
+},{
+	"maneuver":{
+		"type":"continue",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.009458,35.288187]
+		},
+		"instruction":"Continue on <span class=\"mapbox-directions-way-name\">State Road 1005</span>"
+	},
+	"distance":72,
+	"duration":51,
+	"way_name":"State Road 1005","direction":"E","heading":101
+},{
+	"maneuver":{
+		"type":"continue",
+		"location":{
+			"type":"Point",
+			"coordinates":[-82.008676,35.288072]
+		},
+		"instruction":"Continue on <span class=\"mapbox-directions-way-name\">Coxe Road</span>"
+	},
+	"distance":2463,
+	"duration":1774,
+	"way_name":"Coxe Road","direction":"E","heading":88
+},{
+	"maneuver":{
+		"type":"bear right",
+		"location":{
+			"type":"Point",
+			"coordinates":[-81.984031,35.294418]
+		},
+		"instruction":"Bear right onto <span class=\"mapbox-directions-way-name\">Cleghorn Mill Road</span>"
+	},
+	"distance":4213,
+	"duration":2688,
+	"way_name":"Cleghorn Mill Road","direction":"E","heading":72
+},{
+	"maneuver":{
+		"type":"arrive",
+		"location":{
+			"type":"Point",
+			"coordinates":[-81.943262,35.297632]
+		},
+		"instruction":"You have arrived at your destination"
+	}
+}]

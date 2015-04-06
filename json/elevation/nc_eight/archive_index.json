@@ -1,0 +1,55 @@
+[{
+	"elevation" : 4531,
+	"name" : "Start",
+	"distance" : 0.1,
+	"lat" : 35.37337460834958,
+	"lng" : -82.79060840606689
+},{
+	"elevation" : 2228,
+	"name" : "Brevard",
+	"distance" : 10.1,
+	"lat" : 35.2334472,
+	"lng" : -82.7342919
+},{
+	"elevation" : 2231,
+	"name" : "Flat Rock",
+	"distance" : 26.9,
+	"lat" : 35.271228,
+	"lng" : -82.441508
+},{
+	"elevation" : 2123,
+	"name" : "Saluda",
+	"distance" : 32.6,
+	"lat" : 35.2362264,
+	"lng" : -82.34928389
+},{
+	"elevation" : 1125,
+	"name" : "Tryon",
+	"distance" : 39.2,
+	"lat" : 35.2081694,
+	"lng" : -82.23844789
+},{
+	"elevation" : 1020,
+	"name" : "Forest City",
+	"distance" : 62,
+	"lat" : 35.3340108,
+	"lng" : -81.86510278999999
+},{
+	"elevation" : 853,
+	"name" : "Lawndale",
+	"distance" : 79.9,
+	"lat" : 35.4140187,
+	"lng" : -81.56314739
+},{
+	"elevation" : 853,
+	"name" : "Finish",
+	"distance" : 97.3,
+	"lat" : 35.4699,
+	"lng" : -81.2616 
+},{
+	"elevation" : 846,
+	"name" : "Lincolnton",
+	"distance" : 97.8,
+	"lat" : 35.473745,
+	"lng" : -81.2545251
+}]
